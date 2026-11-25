@@ -33,6 +33,7 @@ jobs:
         run: |
           git config user.name 'the-ledger automation'
           git config user.email 'the-ledger@users.noreply.github.com'
+          touch bot_data/outcomes.jsonl
           git add bot_data/predictions.jsonl bot_data/outcomes.jsonl bot_data/model_eval.json site/data/bot_scorecard.json
           if git diff --cached --quiet; then echo 'changed=false' >> "$GITHUB_OUTPUT"; exit 0; fi
           git commit -m 'Update bot predictions and scorecard'
