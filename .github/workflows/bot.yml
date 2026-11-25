@@ -1,0 +1,46 @@
+name: Research bot
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 22 * * 1-5'   # after the US close; Oslo already closed
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: ledger-bot
+  cancel-in-progress: false
+jobs:
+  bot:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: bot/requirements.txt
+      - run: pip install -r bot/requirements.txt
+      - name: Update data, grade old predictions, make new ones
+        env:
+          LEDGER_CONTACT_EMAIL: ${{ secrets.LEDGER_CONTACT_EMAIL }}
+        run: python -m bot.run daily
+      - name: Commit the append-only log and scorecard
+        id: commit
+        run: |
+          git config user.name 'the-ledger automation'
+          git config user.email 'the-ledger@users.noreply.github.com'
+          git add bot_data/predictions.jsonl bot_data/outcomes.jsonl bot_data/model_eval.json site/data/bot_scorecard.json
+          if git diff --cached --quiet; then echo 'changed=false' >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m 'Update bot predictions and scorecard'
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Redeploy the site with the new scorecard
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run daily.yml --ref main

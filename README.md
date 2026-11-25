@@ -110,3 +110,11 @@ Corrections are displayed with their source and time; the original stays availab
 Schedules at 04:00, 05:00, 06:00, 08:00 and 10:00 UTC pass only after 06:30 Oslo and when today's valid edition is absent. Winter's first passing trigger is 06:00 UTC; summer's is 05:00 UTC. Scheduling is best-effort: jobs can be delayed or dropped, and public schedules disable after 60 days without repository activity. Edition timestamps and the 36-hour STALE banner are the real freshness signal. A workflow/platform failure that cannot publish a status file is visible through this age warning, not instantaneous remote failure detection. Monitor Actions and re-enable schedules after prolonged inactivity. No keepalive is included; normal daily archive commits provide activity.
 
 Review feed structure, permissions, freshness and classification monthly, and after any health failure. Review glossary and shelf documents manually before launch. Inspect publication quality, not article count. The <=5 minute habit target remains untested with a real reader. See [DEPLOYMENT.md](DEPLOYMENT.md) for exact user steps and billing constraints.
+
+## Research bot (added 2026-11-25)
+
+Beside the newspaper, `bot/` runs a daily experiment: it fetches prices (Yahoo), US fundamentals (SEC EDGAR) and macro series,
+predicts **up or down** for ~30 Norwegian and US stocks at 1- and 3-month horizons, logs every guess in `bot_data/predictions.jsonl`,
+and grades itself when the horizon passes. Scores are on the site at `track-record.html`. See [bot/PRINCIPLES.md](bot/PRINCIPLES.md)
+for the Graham/Munger/Outsiders rules it applies and its honest limits. Run it locally with
+`pip install -r bot/requirements.txt && python -m bot.run daily`. It does not trade and is not investment advice.

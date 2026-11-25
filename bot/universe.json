@@ -1,0 +1,17 @@
+{
+  "_note": "Circle of competence (Munger): a small, fixed list of large, liquid, well-documented companies. Add names deliberately, never automatically.",
+  "stocks": [
+    {"t": "EQNR.OL", "region": "NO"}, {"t": "DNB.OL", "region": "NO"}, {"t": "MOWI.OL", "region": "NO"},
+    {"t": "TEL.OL", "region": "NO"}, {"t": "YAR.OL", "region": "NO"}, {"t": "NHY.OL", "region": "NO"},
+    {"t": "ORK.OL", "region": "NO"}, {"t": "SALM.OL", "region": "NO"}, {"t": "AKRBP.OL", "region": "NO"},
+    {"t": "STB.OL", "region": "NO"}, {"t": "GJF.OL", "region": "NO"}, {"t": "SUBC.OL", "region": "NO"},
+    {"t": "AAPL", "region": "US"}, {"t": "MSFT", "region": "US"}, {"t": "GOOGL", "region": "US"},
+    {"t": "AMZN", "region": "US"}, {"t": "BRK-B", "region": "US"}, {"t": "JPM", "region": "US"},
+    {"t": "JNJ", "region": "US"}, {"t": "KO", "region": "US"}, {"t": "PG", "region": "US"},
+    {"t": "XOM", "region": "US"}, {"t": "CVX", "region": "US"}, {"t": "V", "region": "US"},
+    {"t": "WMT", "region": "US"}, {"t": "COST", "region": "US"}, {"t": "UNH", "region": "US"},
+    {"t": "MCD", "region": "US"}, {"t": "PEP", "region": "US"}, {"t": "HD", "region": "US"}
+  ],
+  "benchmarks": {"NO": "OSEBX.OL", "US": "^GSPC"},
+  "macro": {"vix": "^VIX", "tnx": "^TNX", "usdnok": "USDNOK=X", "brent": "BZ=F"}
+}

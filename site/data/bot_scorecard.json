@@ -1,0 +1,2069 @@
+{
+ "generated_at": "2026-11-25T15:16:00Z",
+ "disclaimer": "Research experiment, not investment advice. Predictions are statistical guesses with no guarantee. Past results do not predict future ones.",
+ "totals": {
+  "predictions": 60,
+  "resolved": 0,
+  "pending": 60
+ },
+ "by_horizon": {
+  "1m": {
+   "resolved": 0,
+   "called": 0,
+   "abstained": 0,
+   "hit_rate": null,
+   "always_up_hit_rate": null,
+   "mean_return_when_up": null,
+   "mean_return_when_down": null,
+   "mean_return_all": null,
+   "brier": null,
+   "brier_if_always_base_rate": null,
+   "hit_rate_margin_of_safety_pass": null,
+   "hit_rate_margin_of_safety_fail": null,
+   "hit_rate_with_red_flags": null
+  },
+  "3m": {
+   "resolved": 0,
+   "called": 0,
+   "abstained": 0,
+   "hit_rate": null,
+   "always_up_hit_rate": null,
+   "mean_return_when_up": null,
+   "mean_return_when_down": null,
+   "mean_return_all": null,
+   "brier": null,
+   "brier_if_always_base_rate": null,
+   "hit_rate_margin_of_safety_pass": null,
+   "hit_rate_margin_of_safety_fail": null,
+   "hit_rate_with_red_flags": null
+  }
+ },
+ "recent": [
+  {
+   "made_at": "2026-11-25",
+   "ticker": "YAR.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.633,
+   "price": 376.5,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "dd_252",
+     "pushes": "up",
+     "value": -0.3423
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "YAR.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.68,
+   "price": 376.5,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "up",
+     "value": -0.1228
+    },
+    {
+     "feature": "ma_gap_200",
+     "pushes": "down",
+     "value": -0.1778
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "XOM",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.621,
+   "price": 159.155,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.5825
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "XOM",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.636,
+   "price": 159.155,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1131
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "WMT",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.567,
+   "price": 132.68,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.3821
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "dd_252",
+     "pushes": "down",
+     "value": -0.009
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "WMT",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.581,
+   "price": 132.68,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.3821
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mom_63",
+     "pushes": "up",
+     "value": 0.2928
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "V",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.593,
+   "price": 416.53,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1884
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "V",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.632,
+   "price": 416.53,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1884
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "UNH",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.64,
+   "price": 341.95,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    },
+    {
+     "feature": "dd_252",
+     "pushes": "up",
+     "value": -0.2115
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "UNH",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.686,
+   "price": 341.95,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    },
+    {
+     "feature": "usdnok_chg_63",
+     "pushes": "down",
+     "value": 0.0579
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "TEL.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.616,
+   "price": 133.9,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "TEL.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.632,
+   "price": 133.9,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.087
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "SUBC.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.625,
+   "price": 325.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.7895
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "SUBC.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.639,
+   "price": 325.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.7895
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "STB.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.625,
+   "price": 197.2,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "STB.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.642,
+   "price": 197.2,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.087
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "SALM.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.592,
+   "price": 574.0,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "SALM.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.624,
+   "price": 574.0,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.087
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "PG",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.569,
+   "price": 173.195,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.3073
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "dd_252",
+     "pushes": "down",
+     "value": 0.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "PG",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.582,
+   "price": 173.195,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.3073
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "PEP",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.599,
+   "price": 144.6,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1353
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "PEP",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.607,
+   "price": 144.6,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1353
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "ORK.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.577,
+   "price": 104.6,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vol_63",
+     "pushes": "up",
+     "value": 0.1785
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "ORK.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.594,
+   "price": 104.6,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1325
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "NHY.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.639,
+   "price": 63.5,
+   "red_flags": [
+    "down more than 40% from 1y high (falling knife)"
+   ],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "dd_252",
+     "pushes": "up",
+     "value": -0.4684
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "up",
+     "value": -0.2852
+    },
+    {
+     "feature": "mom_126",
+     "pushes": "up",
+     "value": -0.4684
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "NHY.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "ABSTAIN",
+   "p_up": 0.693,
+   "price": 63.5,
+   "red_flags": [
+    "down more than 40% from 1y high (falling knife)"
+   ],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "up",
+     "value": -0.2852
+    },
+    {
+     "feature": "mom_126",
+     "pushes": "up",
+     "value": -0.4684
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "MSFT",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.627,
+   "price": 484.14,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "up",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "MSFT",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.627,
+   "price": 484.14,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    },
+    {
+     "feature": "usdnok_chg_63",
+     "pushes": "down",
+     "value": 0.0579
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "MOWI.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.564,
+   "price": 226.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "MOWI.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.595,
+   "price": 226.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1282
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "MCD",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.442,
+   "price": 281.32,
+   "red_flags": [],
+   "margin_of_safety": true,
+   "drivers": [
+    {
+     "feature": "fcf_yield",
+     "pushes": "down",
+     "value": 35655.8682
+    },
+    {
+     "feature": "buyback_yield",
+     "pushes": "up",
+     "value": 10201.5676
+    },
+    {
+     "feature": "debt_to_equity",
+     "pushes": "up",
+     "value": -22.3188
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "MCD",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "DOWN",
+   "p_up": 0.362,
+   "price": 281.32,
+   "red_flags": [],
+   "margin_of_safety": true,
+   "drivers": [
+    {
+     "feature": "fcf_yield",
+     "pushes": "down",
+     "value": 35655.8682
+    },
+    {
+     "feature": "buyback_yield",
+     "pushes": "up",
+     "value": 10201.5676
+    },
+    {
+     "feature": "debt_to_equity",
+     "pushes": "up",
+     "value": -22.3188
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "KO",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.613,
+   "price": 97.685,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1927
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vol_63",
+     "pushes": "up",
+     "value": 0.1744
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "KO",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.634,
+   "price": 97.685,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1927
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "JPM",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.637,
+   "price": 311.6899,
+   "red_flags": [
+    "negative free cash flow"
+   ],
+   "margin_of_safety": true,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "up",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "JPM",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "ABSTAIN",
+   "p_up": 0.69,
+   "price": 311.6899,
+   "red_flags": [
+    "negative free cash flow"
+   ],
+   "margin_of_safety": true,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "net_margin",
+     "pushes": "up",
+     "value": 0.3127
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "JNJ",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.571,
+   "price": 275.25,
+   "red_flags": [],
+   "margin_of_safety": true,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1301
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "JNJ",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.616,
+   "price": 275.25,
+   "red_flags": [],
+   "margin_of_safety": true,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1301
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "HD",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "ABSTAIN",
+   "p_up": 0.57,
+   "price": 353.98,
+   "red_flags": [
+    "high leverage (debt/equity > 2.5)"
+   ],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1744
+    },
+    {
+     "feature": "debt_to_equity",
+     "pushes": "down",
+     "value": 3.8552
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "HD",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "ABSTAIN",
+   "p_up": 0.569,
+   "price": 353.98,
+   "red_flags": [
+    "high leverage (debt/equity > 2.5)"
+   ],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1744
+    },
+    {
+     "feature": "debt_to_equity",
+     "pushes": "down",
+     "value": 3.8552
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "GOOGL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.643,
+   "price": 268.05,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "dd_252",
+     "pushes": "up",
+     "value": -0.3334
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "ma_gap_200",
+     "pushes": "down",
+     "value": -0.2023
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "GOOGL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.711,
+   "price": 268.05,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "up",
+     "value": -0.1233
+    },
+    {
+     "feature": "mom_126",
+     "pushes": "up",
+     "value": -0.3121
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "GJF.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.602,
+   "price": 282.2,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "GJF.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.631,
+   "price": 282.2,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.087
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "EQNR.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.63,
+   "price": 385.0,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.9384
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "EQNR.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.642,
+   "price": 385.0,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.9384
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "DNB.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.625,
+   "price": 320.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vol_63",
+     "pushes": "up",
+     "value": 0.1548
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "DNB.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.641,
+   "price": 320.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.087
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "CVX",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.611,
+   "price": 211.05,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.5666
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1545
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "CVX",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.648,
+   "price": 211.05,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.1545
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "COST",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.579,
+   "price": 1093.87,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.2943
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "dd_252",
+     "pushes": "down",
+     "value": 0.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "COST",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "ABSTAIN",
+   "p_up": 0.568,
+   "price": 1093.87,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.2943
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "BRK-B",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.583,
+   "price": 576.885,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.2346
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "profit_years",
+     "pushes": "up",
+     "value": 3.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "BRK-B",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.602,
+   "price": 576.885,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.2346
+    },
+    {
+     "feature": "profit_years",
+     "pushes": "up",
+     "value": 3.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "AMZN",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.628,
+   "price": 241.49,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "up",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "AMZN",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.657,
+   "price": 241.49,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "profit_years",
+     "pushes": "up",
+     "value": 4.0
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "AKRBP.OL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.632,
+   "price": 301.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "mom_252_skip21",
+     "pushes": "up",
+     "value": 0.6362
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "AKRBP.OL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.662,
+   "price": 301.4,
+   "red_flags": [],
+   "margin_of_safety": null,
+   "drivers": [
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "rel_63",
+     "pushes": "up",
+     "value": -0.0906
+    },
+    {
+     "feature": "is_no",
+     "pushes": "down",
+     "value": 1.0
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "AAPL",
+   "horizon": "1m",
+   "due_date": "2026-12-25",
+   "call": "UP",
+   "p_up": 0.61,
+   "price": 350.38,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.204
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "vix_chg_21",
+     "pushes": "up",
+     "value": 0.871
+    }
+   ],
+   "result": null
+  },
+  {
+   "made_at": "2026-11-25",
+   "ticker": "AAPL",
+   "horizon": "3m",
+   "due_date": "2027-02-24",
+   "call": "UP",
+   "p_up": 0.628,
+   "price": 350.38,
+   "red_flags": [],
+   "margin_of_safety": false,
+   "drivers": [
+    {
+     "feature": "rel_63",
+     "pushes": "down",
+     "value": 0.204
+    },
+    {
+     "feature": "vix",
+     "pushes": "up",
+     "value": 32.78
+    },
+    {
+     "feature": "mkt_mom_63",
+     "pushes": "down",
+     "value": -0.0893
+    }
+   ],
+   "result": null
+  }
+ ],
+ "backtest": {
+  "evaluated_at": "2026-11-25T15:13:10Z",
+  "model": "v1-ensemble-logit-hgb",
+  "method": "Walk-forward: for each test year the model trains only on data ending a full horizon before that year starts.",
+  "universe_size": 30,
+  "horizons": {
+   "1m": {
+    "n": 111696,
+    "hit_rate": 0.5821873657069188,
+    "base_hit_rate": 0.5984010170462685,
+    "up_share": 0.5984010170462685,
+    "brier": 0.24374245813270592,
+    "brier_baseline": 0.24058656746515616,
+    "logloss": 0.6810387472623728,
+    "auc": 0.5170559316508268,
+    "confident_n": 65764,
+    "confident_hit_rate": 0.5982148287817043,
+    "mean_ret_when_up": 0.016475516375684226,
+    "mean_ret_when_down": 0.021753474414397622,
+    "mean_ret_all": 0.014491465099906434,
+    "mean_ret_top_quintile": 0.021524541013492753,
+    "mean_ret_bottom_quintile": 0.012805035297264972,
+    "by_year": {
+     "2012": {
+      "n": 7512,
+      "hit_rate": 0.5194355697550586,
+      "base_hit_rate": 0.628727369542066
+     },
+     "2013": {
+      "n": 7524,
+      "hit_rate": 0.5995481127060075,
+      "base_hit_rate": 0.6246677299308878
+     },
+     "2014": {
+      "n": 7536,
+      "hit_rate": 0.5992569002123143,
+      "base_hit_rate": 0.6001857749469215
+     },
+     "2015": {
+      "n": 7548,
+      "hit_rate": 0.5434552199258081,
+      "base_hit_rate": 0.5152358240593534
+     },
+     "2016": {
+      "n": 7572,
+      "hit_rate": 0.6502905441098785,
+      "base_hit_rate": 0.6636291600633915
+     },
+     "2017": {
+      "n": 7542,
+      "hit_rate": 0.6189339697692919,
+      "base_hit_rate": 0.6782020684168656
+     },
+     "2018": {
+      "n": 7506,
+      "hit_rate": 0.5386357580602185,
+      "base_hit_rate": 0.5210498268052225
+     },
+     "2019": {
+      "n": 7524,
+      "hit_rate": 0.6624136097820308,
+      "base_hit_rate": 0.6624136097820308
+     },
+     "2020": {
+      "n": 7578,
+      "hit_rate": 0.5833993138031143,
+      "base_hit_rate": 0.5833993138031143
+     },
+     "2021": {
+      "n": 7560,
+      "hit_rate": 0.6214285714285714,
+      "base_hit_rate": 0.6347883597883598
+     },
+     "2022": {
+      "n": 7554,
+      "hit_rate": 0.5442149854381785,
+      "base_hit_rate": 0.5131056393963463
+     },
+     "2023": {
+      "n": 7512,
+      "hit_rate": 0.5439297124600639,
+      "base_hit_rate": 0.5926517571884984
+     },
+     "2024": {
+      "n": 7536,
+      "hit_rate": 0.5924893842887473,
+      "base_hit_rate": 0.5962048832271762
+     },
+     "2025": {
+      "n": 7500,
+      "hit_rate": 0.5809333333333333,
+      "base_hit_rate": 0.5924
+     },
+     "2026": {
+      "n": 6192,
+      "hit_rate": 0.5232558139534884,
+      "base_hit_rate": 0.5628229974160207
+     }
+    },
+    "calibration": [
+     {
+      "bin": "(0.0, 0.4]",
+      "n": 1209,
+      "predicted": 0.3291406244985796,
+      "actual_up": 0.7253928866832092
+     },
+     {
+      "bin": "(0.4, 0.45]",
+      "n": 2554,
+      "predicted": 0.4301750605996522,
+      "actual_up": 0.5591229444009397
+     },
+     {
+      "bin": "(0.45, 0.5]",
+      "n": 6542,
+      "predicted": 0.47923875202526395,
+      "actual_up": 0.5736777743809233
+     },
+     {
+      "bin": "(0.5, 0.55]",
+      "n": 22168,
+      "predicted": 0.5294054116709791,
+      "actual_up": 0.5883255142547816
+     },
+     {
+      "bin": "(0.55, 0.6]",
+      "n": 40818,
+      "predicted": 0.5753190852935532,
+      "actual_up": 0.5878288990151403
+     },
+     {
+      "bin": "(0.6, 1.0]",
+      "n": 38405,
+      "predicted": 0.639762153532593,
+      "actual_up": 0.6182788699388101
+     }
+    ]
+   },
+   "3m": {
+    "n": 110436,
+    "hit_rate": 0.6419374117135717,
+    "base_hit_rate": 0.6518888768155312,
+    "up_share": 0.6518888768155312,
+    "brier": 0.2319929004017479,
+    "brier_baseline": 0.22713687520132836,
+    "logloss": 0.6574885488155062,
+    "auc": 0.5077175298058817,
+    "confident_n": 91423,
+    "confident_hit_rate": 0.6481519967623027,
+    "mean_ret_when_up": 0.04253342115594156,
+    "mean_ret_when_down": 0.0601815741380515,
+    "mean_ret_all": 0.0427775412876151,
+    "mean_ret_top_quintile": 0.04968356539105336,
+    "mean_ret_bottom_quintile": 0.043908211336563835,
+    "by_year": {
+     "2012": {
+      "n": 7512,
+      "hit_rate": 0.6329872204472844,
+      "base_hit_rate": 0.6878328008519702
+     },
+     "2013": {
+      "n": 7524,
+      "hit_rate": 0.6661350345560871,
+      "base_hit_rate": 0.6729133439659756
+     },
+     "2014": {
+      "n": 7536,
+      "hit_rate": 0.6446390658174098,
+      "base_hit_rate": 0.6665339702760085
+     },
+     "2015": {
+      "n": 7548,
+      "hit_rate": 0.525039745627981,
+      "base_hit_rate": 0.5514043455219926
+     },
+     "2016": {
+      "n": 7572,
+      "hit_rate": 0.7169836238774432,
+      "base_hit_rate": 0.7190966719492868
+     },
+     "2017": {
+      "n": 7542,
+      "hit_rate": 0.7398568019093079,
+      "base_hit_rate": 0.7427738000530363
+     },
+     "2018": {
+      "n": 7506,
+      "hit_rate": 0.5840660804689581,
+      "base_hit_rate": 0.5840660804689581
+     },
+     "2019": {
+      "n": 7524,
+      "hit_rate": 0.6461988304093568,
+      "base_hit_rate": 0.6581605528973951
+     },
+     "2020": {
+      "n": 7578,
+      "hit_rate": 0.6751121667986276,
+      "base_hit_rate": 0.6751121667986276
+     },
+     "2021": {
+      "n": 7560,
+      "hit_rate": 0.7376984126984127,
+      "base_hit_rate": 0.7376984126984127
+     },
+     "2022": {
+      "n": 7554,
+      "hit_rate": 0.4973523960815462,
+      "base_hit_rate": 0.5023828435266084
+     },
+     "2023": {
+      "n": 7512,
+      "hit_rate": 0.6464323748668797,
+      "base_hit_rate": 0.6675985090521832
+     },
+     "2024": {
+      "n": 7536,
+      "hit_rate": 0.6721072186836518,
+      "base_hit_rate": 0.671443736730361
+     },
+     "2025": {
+      "n": 7500,
+      "hit_rate": 0.6316,
+      "base_hit_rate": 0.6312
+     },
+     "2026": {
+      "n": 4932,
+      "hit_rate": 0.5965125709651257,
+      "base_hit_rate": 0.5946877534468775
+     }
+    },
+    "calibration": [
+     {
+      "bin": "(0.0, 0.4]",
+      "n": 482,
+      "predicted": 0.30332724040803005,
+      "actual_up": 0.9045643153526971
+     },
+     {
+      "bin": "(0.4, 0.45]",
+      "n": 304,
+      "predicted": 0.4333500382456966,
+      "actual_up": 0.5789473684210527
+     },
+     {
+      "bin": "(0.45, 0.5]",
+      "n": 2277,
+      "predicted": 0.4817653509123509,
+      "actual_up": 0.645147123407993
+     },
+     {
+      "bin": "(0.5, 0.55]",
+      "n": 9151,
+      "predicted": 0.5301606680188209,
+      "actual_up": 0.64954649765053
+     },
+     {
+      "bin": "(0.55, 0.6]",
+      "n": 23480,
+      "predicted": 0.5779983664192408,
+      "actual_up": 0.6469335604770017
+     },
+     {
+      "bin": "(0.6, 1.0]",
+      "n": 74742,
+      "predicted": 0.6632116202860304,
+      "actual_up": 0.6526049610660672
+     }
+    ]
+   }
+  },
+  "edge_demonstrated": false,
+  "edge_rule": "Edge counts as demonstrated only if out-of-sample AUC >= 0.53 AND Brier score beats always-guessing-the-base-rate, at every horizon."
+ }
+}

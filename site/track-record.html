@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Ledger bot's public prediction log and scorecard.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<title>THE LEDGER — Bot track record</title><link rel="stylesheet" href="style.css"><script src="track-record.js" defer></script>
+</head>
+<body>
+<div class="page">
+<header>
+<div class="masthead"><p class="eyebrow">Experiment · not investment advice</p><h1>TRACK RECORD</h1><p class="tagline">A bot guesses up or down. Every guess is logged before the outcome. Then it is graded.</p></div>
+<div class="edition-nav"><a href="index.html">← The newspaper</a><a href="#verdict">Verdict</a><a href="#scores">Live scores</a><a href="#backtest">Backtest</a><a href="#log">Prediction log</a></div>
+</header>
+<main>
+<section id="verdict"><div class="section-heading"><h2>Does it work?</h2><span id="updated"></span></div><div id="verdict-body" class="notice">Loading…</div></section>
+<section id="scores"><div class="section-heading"><h2>Live scores</h2><span>Predictions made, then graded after their horizon</span></div><div id="scores-body"></div></section>
+<section id="backtest"><div class="section-heading"><h2>Backtest (history, walk-forward)</h2><span>Out of sample, never trained on the future</span></div><div id="backtest-body"></div></section>
+<section id="log"><div class="section-heading"><h2>Latest predictions</h2><span>Append-only log in the repository</span></div><div id="log-body"></div></section>
+</main>
+<footer><strong>THE LEDGER</strong><p id="disclaimer"></p><p>The prediction log is committed to Git daily, so past guesses cannot be quietly edited.</p></footer>
+</div>
+</body>
+</html>

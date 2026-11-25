@@ -10,3 +10,7 @@ data/collector.lock
 data/candidate.json
 data/research_queue.json
 live_probe_draft/
+.venv-bot/
+bot_data/prices/
+bot_data/fundamentals/
+bot_data/update_status.json
