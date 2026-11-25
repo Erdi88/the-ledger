@@ -9,5 +9,4 @@ build/
 data/collector.lock
 data/candidate.json
 data/research_queue.json
-live_probe_results.json
 live_probe_draft/
