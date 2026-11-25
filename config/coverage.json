@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "equities",
+    "funds",
+    "crypto",
+    "macro",
+    "bonds",
+    "fx",
+    "commodities",
+    "derivatives"
+  ],
+  "critical_categories": [
+    "macro",
+    "equities"
+  ],
+  "minimum_other_checked": 2,
+  "stale_hours": 36
+}

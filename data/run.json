@@ -1,0 +1,210 @@
+{
+  "at": "2026-11-25T12:41:57.229964Z",
+  "fixture": false,
+  "verification_status": "LIVE-VERIFIED",
+  "source_health": [
+    {
+      "source_id": "fed",
+      "publisher": "Federal Reserve",
+      "status": "SUCCEEDED",
+      "reason": null,
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "last_success": "2026-11-25T12:41:57.229964Z",
+      "last_nonempty_at": "2026-11-25T12:41:57.229964Z",
+      "failures": 0,
+      "item_count": 20,
+      "newest_published_at": "2026-11-24T19:00:00Z",
+      "publication_latency_hours": 17.7,
+      "http_status": 304,
+      "latency_ms": 1884.9,
+      "final_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "structure_valid": true
+    },
+    {
+      "source_id": "ecb",
+      "publisher": "ECB",
+      "status": "SUCCEEDED",
+      "reason": null,
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "last_success": "2026-11-25T12:41:57.229964Z",
+      "last_nonempty_at": "2026-11-25T12:41:57.229964Z",
+      "failures": 0,
+      "item_count": 15,
+      "newest_published_at": "2026-11-25T10:00:00Z",
+      "publication_latency_hours": 2.7,
+      "http_status": 200,
+      "latency_ms": 5123.5,
+      "final_url": "https://www.ecb.europa.eu/rss/press.html",
+      "body_sha256": "75d6c547015b4f0725b1fa838008d234f3a496ca8f88b4bd30461e117e9be105",
+      "structure_valid": true
+    },
+    {
+      "source_id": "bls",
+      "publisher": "BLS",
+      "status": "SUCCEEDED",
+      "reason": null,
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "last_success": "2026-11-25T12:41:57.229964Z",
+      "last_nonempty_at": "2026-11-25T12:41:57.229964Z",
+      "failures": 0,
+      "item_count": 1,
+      "newest_published_at": "2026-11-20T15:03:24Z",
+      "publication_latency_hours": 117.64,
+      "http_status": 200,
+      "latency_ms": 1946.7,
+      "final_url": "https://www.bls.gov/feed/bls_latest.rss",
+      "body_sha256": "c122add0a98db4545fd0c40dde12e5b434eff3a0e1fa4cbcb1865f8fbfda7e10",
+      "structure_valid": true
+    },
+    {
+      "source_id": "bis",
+      "publisher": "BIS",
+      "status": "SUCCEEDED",
+      "reason": null,
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "last_success": "2026-11-25T12:41:57.229964Z",
+      "last_nonempty_at": "2026-11-25T12:41:57.229964Z",
+      "failures": 0,
+      "item_count": 2,
+      "newest_published_at": "2026-11-18T00:00:00Z",
+      "publication_latency_hours": 180.7,
+      "http_status": 200,
+      "latency_ms": 1968.9,
+      "final_url": "https://www.bis.org/doclist/all_pressrels.rss",
+      "body_sha256": "dcf6396d7a41e6cb8915aa0dba011e4b8dc64a3ad6698c9dbc38f35d68fab010",
+      "structure_valid": true
+    },
+    {
+      "source_id": "sec-press",
+      "publisher": "SEC press releases",
+      "status": "SUCCEEDED",
+      "reason": null,
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "last_success": "2026-11-25T12:41:57.229964Z",
+      "last_nonempty_at": "2026-11-25T12:41:57.229964Z",
+      "failures": 0,
+      "item_count": 25,
+      "newest_published_at": "2026-11-20T18:03:24Z",
+      "publication_latency_hours": 114.64,
+      "http_status": 200,
+      "latency_ms": 1996.5,
+      "final_url": "https://www.sec.gov/news/pressreleases.rss",
+      "body_sha256": "9dd79bf1b674eea1cc247146e6d815ec54a3dc44543225aafee5bcd663ac154f",
+      "structure_valid": true
+    }
+  ],
+  "scope": {
+    "decision": "DEFENSIBLE_NARROWER_SCOPE",
+    "counts": {
+      "macro_primary": 3,
+      "nordic": 0,
+      "substantive_equity": 0,
+      "overall": 4
+    },
+    "categories_with_working_sources": [
+      "bonds",
+      "crypto",
+      "derivatives",
+      "equities",
+      "funds",
+      "fx",
+      "macro"
+    ]
+  },
+  "coverage": {
+    "equities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "funds": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No critical source configured"
+    },
+    "crypto": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No critical source configured"
+    },
+    "macro": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": null
+    },
+    "bonds": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": null
+    },
+    "fx": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": null
+    },
+    "commodities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "derivatives": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No critical source configured"
+    }
+  },
+  "published_locally": true,
+  "deployable": true,
+  "reason": null,
+  "rejected_or_disputed": 7
+}

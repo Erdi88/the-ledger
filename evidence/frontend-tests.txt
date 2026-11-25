@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: FIXTURE coverage never calls an unchecked category quiet
+ok 1 - FIXTURE coverage never calls an unchecked category quiet
+  ---
+  duration_ms: 1.184396
+  type: 'test'
+  ...
+# Subtest: FIXTURE quiet coverage names sources and Oslo time
+ok 2 - FIXTURE quiet coverage names sources and Oslo time
+  ---
+  duration_ms: 13.858652
+  type: 'test'
+  ...
+# Subtest: FIXTURE stale age and failure status
+ok 3 - FIXTURE stale age and failure status
+  ---
+  duration_ms: 0.516389
+  type: 'test'
+  ...
+# Subtest: FIXTURE Copy Story Pack contains public fields, excludes private state, makes zero network calls
+ok 4 - FIXTURE Copy Story Pack contains public fields, excludes private state, makes zero network calls
+  ---
+  duration_ms: 0.279085
+  type: 'test'
+  ...
+# Subtest: Unsafe links cannot become clickable
+ok 5 - Unsafe links cannot become clickable
+  ---
+  duration_ms: 0.323022
+  type: 'test'
+  ...
+# Subtest: Storage failure does not break reading
+ok 6 - Storage failure does not break reading
+  ---
+  duration_ms: 0.924809
+  type: 'test'
+  ...
+# Subtest: Source renderer avoids HTML injection and remote font dependencies
+ok 7 - Source renderer avoids HTML injection and remote font dependencies
+  ---
+  duration_ms: 0.46961
+  type: 'test'
+  ...
+# Subtest: FIXTURE rendered partial/stale banners, filters and archive navigation
+ok 8 - FIXTURE rendered partial/stale banners, filters and archive navigation
+  ---
+  duration_ms: 12.930225
+  type: 'test'
+  ...
+# Subtest: FIXTURE theme toggles and local read/saved controls persist
+ok 9 - FIXTURE theme toggles and local read/saved controls persist
+  ---
+  duration_ms: 2.992431
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 42.020371

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fixture-paper",
+    "fixture": true,
+    "approved": true,
+    "publisher": "FIXTURE Research Institute",
+    "title": "FIXTURE \u2014 Interest rates and household budgets: a simple accounting framework",
+    "published_at": "2025-04-02T00:00:00Z",
+    "publication_precision": "day",
+    "content_type": "research",
+    "document_type": "Working paper",
+    "description": "FIXTURE abstract: This paper illustrates how interest payments enter a household budget. The examples are hypothetical.",
+    "summary_source": "FIXTURE author-written abstract",
+    "url": "https://example.org/fixture-working-paper"
+  }
+]

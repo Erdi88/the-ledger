@@ -1,0 +1,558 @@
+{
+  "label": "FIXTURE: synthetic syndication, rejected promotion and conflicting claims; NOT natural live examples",
+  "cluster": {
+    "id": "0",
+    "original_title": "FIXTURE — Central bank keeps its policy rate unchanged",
+    "publisher": "FIXTURE Syndicator 0",
+    "source_id": "fixture-central",
+    "canonical_url": "https://example.org/copy0",
+    "event_at": null,
+    "published_at": "2026-10-13T04:00:00Z",
+    "retrieved_at": "2026-10-13T05:00:00Z",
+    "corrected_at": null,
+    "publication_precision": "instant",
+    "original_language": "en",
+    "source_tier": "P",
+    "content_type": "official_disclosure",
+    "asset_classes": [
+      "macro",
+      "bonds"
+    ],
+    "identifiers": [],
+    "permitted_excerpt": "Inflation remains above the objective.",
+    "primary_source_links": [
+      "https://example.org/rate"
+    ],
+    "access_restrictions": "public metadata; open publisher for document",
+    "collection_status": "SUCCEEDED",
+    "provenance": {
+      "source_url": "https://example.org/fixture-central/feed.xml",
+      "document_id": "rate",
+      "retrieved_at": "2026-10-13T05:00:00Z",
+      "fixture": true,
+      "terms_note": "FIXTURE: synthetic text written for tests"
+    },
+    "event_type": "rate_decision",
+    "explanation_source": null,
+    "evidence_kind": "confirmed event",
+    "fixture": true,
+    "data_revision": "unknown",
+    "instrument_context": {},
+    "evidence_modifiers": [],
+    "claims": [],
+    "event_key": "FIXTURE-one-event",
+    "origin_id": "FIXTURE-original",
+    "material_update": false,
+    "disagreements": [],
+    "cluster_sources": [
+      {
+        "publisher": "FIXTURE Syndicator 0",
+        "url": "https://example.org/copy0",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "FIXTURE-original"
+      },
+      {
+        "publisher": "FIXTURE Syndicator 1",
+        "url": "https://example.org/copy1",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "FIXTURE-original"
+      },
+      {
+        "publisher": "FIXTURE Syndicator 2",
+        "url": "https://example.org/copy2",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "FIXTURE-original"
+      },
+      {
+        "publisher": "FIXTURE Syndicator 3",
+        "url": "https://example.org/copy3",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "FIXTURE-original"
+      },
+      {
+        "publisher": "FIXTURE Syndicator 4",
+        "url": "https://example.org/copy4",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "FIXTURE-original"
+      }
+    ],
+    "independent_origins": [
+      "FIXTURE-original"
+    ],
+    "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+    "cluster_id": "4565c3e4e04dfe3f770b2cad"
+  },
+  "rejected": {
+    "id": "d08e6dbc6da6376b5f6467b4",
+    "original_title": "FIXTURE promotional outcome claim",
+    "publisher": "FIXTURE Central Bank",
+    "source_id": "fixture-central",
+    "canonical_url": "https://example.org/rate",
+    "event_at": null,
+    "published_at": "2026-10-13T04:00:00Z",
+    "retrieved_at": "2026-10-13T05:00:00Z",
+    "corrected_at": null,
+    "publication_precision": "instant",
+    "original_language": "en",
+    "source_tier": "P",
+    "content_type": "promotional",
+    "asset_classes": [
+      "macro",
+      "bonds"
+    ],
+    "identifiers": [],
+    "permitted_excerpt": "Inflation remains above the objective.",
+    "primary_source_links": [
+      "https://example.org/rate"
+    ],
+    "access_restrictions": "public metadata; open publisher for document",
+    "collection_status": "SUCCEEDED",
+    "provenance": {
+      "source_url": "https://example.org/fixture-central/feed.xml",
+      "document_id": "rate",
+      "retrieved_at": "2026-10-13T05:00:00Z",
+      "fixture": true,
+      "terms_note": "FIXTURE: synthetic text written for tests"
+    },
+    "event_type": "rate_decision",
+    "explanation_source": null,
+    "evidence_kind": "confirmed event",
+    "fixture": true,
+    "data_revision": "unknown",
+    "instrument_context": {},
+    "evidence_modifiers": [],
+    "claims": [],
+    "event_key": null,
+    "origin_id": "https://example.org/rate",
+    "material_update": false,
+    "eligibility": "REJECTED",
+    "eligibility_reason": "Promotion or opinion is not eligible news"
+  },
+  "conflict": {
+    "id": "b",
+    "original_title": "FIXTURE — Central bank keeps its policy rate unchanged",
+    "publisher": "FIXTURE Central Bank",
+    "source_id": "fixture-central",
+    "canonical_url": "https://example.org/rate",
+    "event_at": null,
+    "published_at": "2026-10-13T04:00:00Z",
+    "retrieved_at": "2026-10-13T05:00:00Z",
+    "corrected_at": null,
+    "publication_precision": "instant",
+    "original_language": "en",
+    "source_tier": "P",
+    "content_type": "official_disclosure",
+    "asset_classes": [
+      "macro",
+      "bonds"
+    ],
+    "identifiers": [],
+    "permitted_excerpt": "Inflation remains above the objective.",
+    "primary_source_links": [
+      "https://example.org/rate"
+    ],
+    "access_restrictions": "public metadata; open publisher for document",
+    "collection_status": "SUCCEEDED",
+    "provenance": {
+      "source_url": "https://example.org/fixture-central/feed.xml",
+      "document_id": "rate",
+      "retrieved_at": "2026-10-13T05:00:00Z",
+      "fixture": true,
+      "terms_note": "FIXTURE: synthetic text written for tests"
+    },
+    "event_type": "rate_decision",
+    "explanation_source": null,
+    "evidence_kind": "confirmed event",
+    "fixture": true,
+    "data_revision": "unknown",
+    "instrument_context": {},
+    "evidence_modifiers": [],
+    "claims": [
+      {
+        "metric": "profit",
+        "as_of": "2026-Q3",
+        "unit": "NOK",
+        "definition": "net",
+        "dataset": "FIXTURE",
+        "value": 11,
+        "source_url": "https://example.org/claim-b"
+      },
+      {
+        "metric": "profit",
+        "as_of": "2026-Q3",
+        "unit": "NOK",
+        "definition": "net",
+        "dataset": "FIXTURE",
+        "value": 10,
+        "source_url": "https://example.org/claim-a"
+      }
+    ],
+    "event_key": null,
+    "origin_id": "https://example.org/rate",
+    "material_update": false,
+    "eligibility": "DISPUTED",
+    "eligibility_reason": "Comparable claims disagree; both retained for review",
+    "disagreements": [
+      {
+        "metric": "profit",
+        "as_of": "2026-Q3",
+        "unit": "NOK",
+        "definition": "net",
+        "dataset": "FIXTURE",
+        "value": 11,
+        "source_url": "https://example.org/claim-b"
+      },
+      {
+        "metric": "profit",
+        "as_of": "2026-Q3",
+        "unit": "NOK",
+        "definition": "net",
+        "dataset": "FIXTURE",
+        "value": 10,
+        "source_url": "https://example.org/claim-a"
+      }
+    ],
+    "cluster_sources": [
+      {
+        "publisher": "FIXTURE Central Bank",
+        "url": "https://example.org/rate",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "https://example.org/rate"
+      },
+      {
+        "publisher": "FIXTURE Central Bank",
+        "url": "https://example.org/rate",
+        "published_at": "2026-10-13T04:00:00Z",
+        "origin_id": "https://example.org/rate"
+      }
+    ],
+    "independent_origins": [
+      "https://example.org/rate"
+    ],
+    "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+    "cluster_id": "87f8173db33c3c50996853a3"
+  },
+  "historical_replays": [
+    {
+      "date": "2020-03-15",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+      "event_type": "emergency",
+      "assets": [
+        "macro",
+        "bonds"
+      ],
+      "publisher": "Federal Reserve",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 4.05,
+      "components": {
+        "significance": 4,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 4
+      }
+    },
+    {
+      "date": "2022-03-16",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm",
+      "event_type": "rate_decision",
+      "assets": [
+        "macro",
+        "bonds"
+      ],
+      "publisher": "Federal Reserve",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 3.95,
+      "components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 5
+      }
+    },
+    {
+      "date": "2022-06-15",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+      "event_type": "rate_decision",
+      "assets": [
+        "macro",
+        "bonds"
+      ],
+      "publisher": "Federal Reserve",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 3.95,
+      "components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 5
+      }
+    },
+    {
+      "date": "2024-09-18",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "event_type": "rate_decision",
+      "assets": [
+        "macro",
+        "bonds"
+      ],
+      "publisher": "Federal Reserve",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 3.95,
+      "components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 5
+      }
+    },
+    {
+      "date": "2024-07-31",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+      "event_type": "rate_decision",
+      "assets": [
+        "macro",
+        "bonds"
+      ],
+      "publisher": "Federal Reserve",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 3.95,
+      "components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 5
+      }
+    },
+    {
+      "date": "2019-01-02",
+      "title": "Letter from Tim Cook to Apple investors",
+      "url": "https://www.apple.com/newsroom/2019/01/letter-from-tim-cook-to-apple-investors/",
+      "event_type": "profit_warning",
+      "assets": [
+        "equities"
+      ],
+      "publisher": "Apple",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 3.6,
+      "components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 2,
+        "educational_value": 4
+      }
+    },
+    {
+      "date": "2023-03-10",
+      "title": "Silicon Valley Bank closure",
+      "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/silicon-valley.html",
+      "event_type": "emergency",
+      "assets": [
+        "equities",
+        "bonds"
+      ],
+      "publisher": "FDIC",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Our event label, not an exact original title",
+      "score": 4.05,
+      "components": {
+        "significance": 4,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 4
+      }
+    },
+    {
+      "date": "2023-03-12",
+      "title": "Signature Bank closure",
+      "url": "https://www.fdic.gov/news/press-releases/2023/pr23018.html",
+      "event_type": "emergency",
+      "assets": [
+        "equities",
+        "bonds"
+      ],
+      "publisher": "FDIC",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Our event label, not an exact original title",
+      "score": 4.05,
+      "components": {
+        "significance": 4,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 4
+      }
+    },
+    {
+      "date": "2023-05-01",
+      "title": "First Republic Bank closure",
+      "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/2023",
+      "event_type": "emergency",
+      "assets": [
+        "equities",
+        "bonds"
+      ],
+      "publisher": "FDIC",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Our event label, not an exact original title",
+      "score": 4.05,
+      "components": {
+        "significance": 4,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 4
+      }
+    },
+    {
+      "date": "2024-07-18",
+      "title": "Monetary policy decisions",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240718~b9e0ddd9d5.en.html",
+      "event_type": "rate_decision",
+      "assets": [
+        "macro",
+        "bonds"
+      ],
+      "publisher": "ECB",
+      "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+      "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+      "title_kind": "Original title",
+      "score": 3.95,
+      "components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 3,
+        "educational_value": 5
+      }
+    }
+  ],
+  "schedule_simulation": [
+    {
+      "utc": "2026-01-15T04:00:00+00:00",
+      "passes_without_existing_edition": false,
+      "reason": "Before 06:30 Europe/Oslo"
+    },
+    {
+      "utc": "2026-01-15T05:00:00+00:00",
+      "passes_without_existing_edition": false,
+      "reason": "Before 06:30 Europe/Oslo"
+    },
+    {
+      "utc": "2026-01-15T06:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-01-15T08:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-01-15T10:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-07-15T04:00:00+00:00",
+      "passes_without_existing_edition": false,
+      "reason": "Before 06:30 Europe/Oslo"
+    },
+    {
+      "utc": "2026-07-15T05:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-07-15T06:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-07-15T08:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-07-15T10:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-03-29T04:00:00+00:00",
+      "passes_without_existing_edition": false,
+      "reason": "Before 06:30 Europe/Oslo"
+    },
+    {
+      "utc": "2026-03-29T05:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-03-29T06:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-03-29T08:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-03-29T10:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-10-25T04:00:00+00:00",
+      "passes_without_existing_edition": false,
+      "reason": "Before 06:30 Europe/Oslo"
+    },
+    {
+      "utc": "2026-10-25T05:00:00+00:00",
+      "passes_without_existing_edition": false,
+      "reason": "Before 06:30 Europe/Oslo"
+    },
+    {
+      "utc": "2026-10-25T06:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-10-25T08:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    },
+    {
+      "utc": "2026-10-25T10:00:00+00:00",
+      "passes_without_existing_edition": true,
+      "reason": "No valid edition for Oslo date; collect"
+    }
+  ]
+}

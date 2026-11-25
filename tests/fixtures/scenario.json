@@ -1,0 +1,266 @@
+{
+  "label": "FIXTURE: all publishers, documents and events are synthetic",
+  "sources": [
+    {
+      "id": "fixture-central",
+      "publisher": "FIXTURE Central Bank",
+      "tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds"
+      ],
+      "adapter": "rss",
+      "url": "https://example.org/fixture-central/feed.xml",
+      "enabled": true,
+      "license_note": "FIXTURE: synthetic text written for tests",
+      "terms_url": "https://example.org/fixture-terms",
+      "terms_approved": true,
+      "added_on": "2026-10-13",
+      "last_reviewed": "2026-10-13",
+      "critical": true,
+      "cadence_type": "regular",
+      "health_check": "freshness",
+      "max_staleness": 200,
+      "max_silence": 8760,
+      "baseline_item_count": 1,
+      "min_interval_seconds": 2,
+      "allowed_domains": [
+        "example.org"
+      ],
+      "excerpt_words": 25,
+      "language": "en",
+      "nordic": false,
+      "substance_assessment": "CANDIDATE ONLY: substantive"
+    },
+    {
+      "id": "fixture-company",
+      "publisher": "FIXTURE Company Registry",
+      "tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "equities"
+      ],
+      "adapter": "rss",
+      "url": "https://example.org/fixture-company/feed.xml",
+      "enabled": true,
+      "license_note": "FIXTURE: synthetic text written for tests",
+      "terms_url": "https://example.org/fixture-terms",
+      "terms_approved": true,
+      "added_on": "2026-10-13",
+      "last_reviewed": "2026-10-13",
+      "critical": true,
+      "cadence_type": "regular",
+      "health_check": "freshness",
+      "max_staleness": 200,
+      "max_silence": 8760,
+      "baseline_item_count": 1,
+      "min_interval_seconds": 2,
+      "allowed_domains": [
+        "example.org"
+      ],
+      "excerpt_words": 25,
+      "language": "en",
+      "nordic": false,
+      "substance_assessment": "CANDIDATE ONLY: substantive"
+    },
+    {
+      "id": "fixture-statistics",
+      "publisher": "FIXTURE Statistics Office",
+      "tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro"
+      ],
+      "adapter": "rss",
+      "url": "https://example.org/fixture-statistics/feed.xml",
+      "enabled": true,
+      "license_note": "FIXTURE: synthetic text written for tests",
+      "terms_url": "https://example.org/fixture-terms",
+      "terms_approved": true,
+      "added_on": "2026-10-13",
+      "last_reviewed": "2026-10-13",
+      "critical": true,
+      "cadence_type": "regular",
+      "health_check": "freshness",
+      "max_staleness": 200,
+      "max_silence": 8760,
+      "baseline_item_count": 1,
+      "min_interval_seconds": 2,
+      "allowed_domains": [
+        "example.org"
+      ],
+      "excerpt_words": 25,
+      "language": "en",
+      "nordic": false,
+      "substance_assessment": "CANDIDATE ONLY: substantive"
+    },
+    {
+      "id": "fixture-energy",
+      "publisher": "FIXTURE Energy Agency",
+      "tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "commodities"
+      ],
+      "adapter": "rss",
+      "url": "https://example.org/fixture-energy/feed.xml",
+      "enabled": true,
+      "license_note": "FIXTURE: synthetic text written for tests",
+      "terms_url": "https://example.org/fixture-terms",
+      "terms_approved": true,
+      "added_on": "2026-10-13",
+      "last_reviewed": "2026-10-13",
+      "critical": true,
+      "cadence_type": "regular",
+      "health_check": "freshness",
+      "max_staleness": 200,
+      "max_silence": 8760,
+      "baseline_item_count": 1,
+      "min_interval_seconds": 2,
+      "allowed_domains": [
+        "example.org"
+      ],
+      "excerpt_words": 25,
+      "language": "en",
+      "nordic": false,
+      "substance_assessment": "CANDIDATE ONLY: substantive"
+    },
+    {
+      "id": "fixture-research",
+      "publisher": "FIXTURE Research Institute",
+      "tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "derivatives"
+      ],
+      "adapter": "rss",
+      "url": "https://example.org/fixture-research/feed.xml",
+      "enabled": true,
+      "license_note": "FIXTURE: synthetic text written for tests",
+      "terms_url": "https://example.org/fixture-terms",
+      "terms_approved": true,
+      "added_on": "2026-10-13",
+      "last_reviewed": "2026-10-13",
+      "critical": true,
+      "cadence_type": "regular",
+      "health_check": "freshness",
+      "max_staleness": 200,
+      "max_silence": 8760,
+      "baseline_item_count": 1,
+      "min_interval_seconds": 2,
+      "allowed_domains": [
+        "example.org"
+      ],
+      "excerpt_words": 25,
+      "language": "en",
+      "nordic": false,
+      "substance_assessment": "CANDIDATE ONLY: substantive"
+    }
+  ],
+  "items": [
+    {
+      "source_id": "fixture-central",
+      "title": "FIXTURE \u2014 Central bank keeps its policy rate unchanged",
+      "url": "https://example.org/rate",
+      "published_at": "2026-10-13T04:00:00Z",
+      "publication_precision": "instant",
+      "document_id": "rate",
+      "summary": "Inflation remains above the objective.",
+      "event_type": "rate_decision",
+      "asset_classes": [
+        "macro",
+        "bonds"
+      ],
+      "official_rationale": {
+        "reviewed": true,
+        "quote": "Inflation remains above the objective.",
+        "source_url": "https://example.org/rate"
+      }
+    },
+    {
+      "source_id": "fixture-company",
+      "title": "FIXTURE \u2014 Company revises its earnings outlook",
+      "url": "https://example.org/warning",
+      "published_at": "2026-10-13T04:00:00Z",
+      "publication_precision": "instant",
+      "document_id": "warning",
+      "summary": "The company withdrew its earlier earnings outlook.",
+      "event_type": "profit_warning",
+      "asset_classes": [
+        "equities"
+      ],
+      "evidence_modifiers": [
+        {
+          "kind": "surprise",
+          "evidence_text": "The company withdrew its earlier earnings outlook.",
+          "source_url": "https://example.org/warning"
+        },
+        {
+          "kind": "situation_changed",
+          "evidence_text": "Earlier earnings outlook withdrawn.",
+          "source_url": "https://example.org/warning"
+        }
+      ]
+    },
+    {
+      "source_id": "fixture-company",
+      "title": "FIXTURE \u2014 Company releases quarterly results",
+      "url": "https://example.org/earnings",
+      "published_at": "2026-10-13T04:00:00Z",
+      "publication_precision": "instant",
+      "document_id": "earnings",
+      "summary": "",
+      "event_type": "earnings",
+      "asset_classes": [
+        "equities"
+      ]
+    },
+    {
+      "source_id": "fixture-statistics",
+      "title": "FIXTURE \u2014 Statistics office publishes consumer price release",
+      "url": "https://example.org/inflation",
+      "published_at": "2026-10-13T04:00:00Z",
+      "publication_precision": "instant",
+      "document_id": "inflation",
+      "summary": "",
+      "event_type": "inflation",
+      "asset_classes": [
+        "macro"
+      ]
+    },
+    {
+      "source_id": "fixture-energy",
+      "title": "FIXTURE \u2014 Agency publishes weekly petroleum inventory report",
+      "url": "https://example.org/energy",
+      "published_at": "2026-10-13T04:00:00Z",
+      "publication_precision": "instant",
+      "document_id": "energy",
+      "summary": "",
+      "event_type": "energy_report",
+      "asset_classes": [
+        "commodities"
+      ],
+      "instrument_context": {
+        "market": "physical"
+      }
+    },
+    {
+      "source_id": "fixture-research",
+      "title": "FIXTURE \u2014 Exchange explains options settlement rules",
+      "url": "https://example.org/derivatives",
+      "published_at": "2026-10-13T04:00:00Z",
+      "publication_precision": "instant",
+      "document_id": "derivatives",
+      "summary": "",
+      "event_type": "other",
+      "asset_classes": [
+        "derivatives"
+      ],
+      "instrument_context": {
+        "exchange_verified": true
+      },
+      "substantive_reviewed": true
+    }
+  ]
+}

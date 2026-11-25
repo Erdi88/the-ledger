@@ -1,0 +1,141 @@
+[
+  {
+    "date": "2020-03-15",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+    "event_type": "emergency",
+    "assets": [
+      "macro",
+      "bonds"
+    ],
+    "publisher": "Federal Reserve",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  },
+  {
+    "date": "2022-03-16",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm",
+    "event_type": "rate_decision",
+    "assets": [
+      "macro",
+      "bonds"
+    ],
+    "publisher": "Federal Reserve",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  },
+  {
+    "date": "2022-06-15",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+    "event_type": "rate_decision",
+    "assets": [
+      "macro",
+      "bonds"
+    ],
+    "publisher": "Federal Reserve",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  },
+  {
+    "date": "2024-09-18",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "event_type": "rate_decision",
+    "assets": [
+      "macro",
+      "bonds"
+    ],
+    "publisher": "Federal Reserve",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  },
+  {
+    "date": "2024-07-31",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+    "event_type": "rate_decision",
+    "assets": [
+      "macro",
+      "bonds"
+    ],
+    "publisher": "Federal Reserve",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  },
+  {
+    "date": "2019-01-02",
+    "title": "Letter from Tim Cook to Apple investors",
+    "url": "https://www.apple.com/newsroom/2019/01/letter-from-tim-cook-to-apple-investors/",
+    "event_type": "profit_warning",
+    "assets": [
+      "equities"
+    ],
+    "publisher": "Apple",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  },
+  {
+    "date": "2023-03-10",
+    "title": "Silicon Valley Bank closure",
+    "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/silicon-valley.html",
+    "event_type": "emergency",
+    "assets": [
+      "equities",
+      "bonds"
+    ],
+    "publisher": "FDIC",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Our event label, not an exact original title"
+  },
+  {
+    "date": "2023-03-12",
+    "title": "Signature Bank closure",
+    "url": "https://www.fdic.gov/news/press-releases/2023/pr23018.html",
+    "event_type": "emergency",
+    "assets": [
+      "equities",
+      "bonds"
+    ],
+    "publisher": "FDIC",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Our event label, not an exact original title"
+  },
+  {
+    "date": "2023-05-01",
+    "title": "First Republic Bank closure",
+    "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/2023",
+    "event_type": "emergency",
+    "assets": [
+      "equities",
+      "bonds"
+    ],
+    "publisher": "FDIC",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Our event label, not an exact original title"
+  },
+  {
+    "date": "2024-07-18",
+    "title": "Monetary policy decisions",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240718~b9e0ddd9d5.en.html",
+    "event_type": "rate_decision",
+    "assets": [
+      "macro",
+      "bonds"
+    ],
+    "publisher": "ECB",
+    "label": "FIXTURE scoring replay of a real historical event; age and scoring inputs are simulated",
+    "metadata_evidence": "Official document located through research browser; collector retrieval unverified",
+    "title_kind": "Original title"
+  }
+]

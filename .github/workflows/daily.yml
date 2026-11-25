@@ -1,0 +1,82 @@
+name: Daily edition
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4,5,6,8,10 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ledger-publication
+  cancel-in-progress: false
+jobs:
+  edition:
+    if: github.event.repository.private == false && vars.LEDGER_DEPLOY_APPROVED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    outputs:
+      deploy: ${{ steps.ready.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - id: gate
+        run: python -m collector.gate --root .
+      - name: Test before collection
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/frontend.test.cjs
+      - name: Collect and evaluate coverage
+        if: steps.gate.outputs.run == 'true'
+        env:
+          LEDGER_CONTACT_EMAIL: ${{ secrets.LEDGER_CONTACT_EMAIL }}
+        run: python -m collector.collect --output .
+      - name: Validate generated publication
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/validate.py --root .
+      - name: Preserve edition and failure status
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name 'the-ledger automation'
+          git config user.email 'the-ledger@users.noreply.github.com'
+          git add editions site/data site/editions data/health.json data/run.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record newspaper edition or coverage failure'
+            git push origin HEAD:main
+          fi
+      - name: Verify deployment eligibility
+        id: ready
+        run: |
+          if python scripts/validate.py --root . --deploy; then
+            echo 'deploy=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'deploy=false' >> "$GITHUB_OUTPUT"
+            echo 'No deployable live edition. Check source health and coverage.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.ready.outputs.deploy == 'true'
+        with:
+          path: site
+          retention-days: 1
+  deploy:
+    if: needs.edition.outputs.deploy == 'true'
+    needs: edition
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - id: publish
+        uses: actions/deploy-pages@v4

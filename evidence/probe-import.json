@@ -1,0 +1,194 @@
+{
+  "verification_status": "LIVE-VERIFIED",
+  "evidence_origin": "USER_MACHINE_NETWORK (imported; not run in this environment)",
+  "imported_at": "2026-11-25T11:42:02.174388Z",
+  "input_sha256": "1883a6c988650eec969b11340bcd841f6d5f934405e2d06db6ee2aed59267a56",
+  "applied": false,
+  "decisions": [
+    {
+      "source_id": "fed",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "ecb",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "norges",
+      "enable": false,
+      "reason": "HTTP 404; a fresh 200 body is required by the probe",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "ssb",
+      "enable": false,
+      "reason": "implausible headline length",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "bls",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "eia",
+      "enable": false,
+      "reason": "yearless publication date rejected: Fri, 09 Oct  09:00:00 EST",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "eurostat",
+      "enable": false,
+      "reason": "adapter NOT BUILT; HTML scraping intentionally excluded",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "bis",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "imf",
+      "enable": false,
+      "reason": "robots unavailable HTTP 429",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "boe",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "boe-research",
+      "enable": false,
+      "reason": "robots disallows URL",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "sec",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "euronext",
+      "enable": false,
+      "reason": "adapter NOT BUILT; HTML scraping intentionally excluded",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "finanstilsynet",
+      "enable": false,
+      "reason": "adapter NOT BUILT; HTML scraping intentionally excluded",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "nber",
+      "enable": false,
+      "reason": "HTTPS allowlist violation",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "arxiv",
+      "enable": false,
+      "reason": "HTTPS allowlist violation",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "ssrn",
+      "enable": false,
+      "reason": "HTTP 403; a fresh 200 body is required by the probe",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "vanguard",
+      "enable": false,
+      "reason": "adapter NOT BUILT; HTML scraping intentionally excluded",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "ethereum",
+      "enable": false,
+      "reason": "Discovery/excluded tier cannot be enabled as news",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "sec-press",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "reuters",
+      "enable": false,
+      "reason": "robots disallows URL",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "ap",
+      "enable": false,
+      "reason": "HTTP 403; a fresh 200 body is required by the probe",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "ft",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "cnbc",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "marketwatch",
+      "enable": false,
+      "reason": "robots unavailable HTTP 403",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "e24",
+      "enable": false,
+      "reason": "documented source/terms review required",
+      "health_at_evaluation": "SUCCEEDED"
+    },
+    {
+      "source_id": "dn",
+      "enable": false,
+      "reason": "Disabled by policy: paywalled; request skipped",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "finansavisen",
+      "enable": false,
+      "reason": "Disabled by policy: paywalled; request skipped",
+      "health_at_evaluation": "FAILED"
+    },
+    {
+      "source_id": "nikkei",
+      "enable": false,
+      "reason": "adapter NOT BUILT; HTML scraping intentionally excluded",
+      "health_at_evaluation": "FAILED"
+    }
+  ],
+  "gonogo": {
+    "decision": "DEFENSIBLE_NARROWER_SCOPE",
+    "counts": {
+      "macro_primary": 0,
+      "nordic": 0,
+      "substantive_equity": 0,
+      "overall": 0
+    },
+    "categories_with_working_sources": []
+  },
+  "notice": "No edition produced. Local terms review is independent of technical health."
+}

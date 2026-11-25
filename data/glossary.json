@@ -1,0 +1,393 @@
+[
+  {
+    "id": "policy-rate",
+    "term": "Policy rate",
+    "explanation": "A central bank\u2019s policy rate helps influence short-term borrowing costs. Other interest rates also depend on risk and expectations.",
+    "event_types": [
+      "rate_decision"
+    ],
+    "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/key_interest_rates.en.html",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "inflation",
+    "term": "Inflation",
+    "explanation": "Inflation is a broad rise in prices over time. A household\u2019s own spending pattern can differ from the measured basket.",
+    "event_types": [
+      "inflation"
+    ],
+    "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/what_is_inflation.en.html",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "real-rates",
+    "term": "Real interest rate",
+    "explanation": "A real interest rate adjusts a nominal rate for inflation. The result depends on whether inflation is expected or already measured.",
+    "event_types": [
+      "rate_decision"
+    ],
+    "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "earnings",
+    "term": "Company earnings",
+    "explanation": "Earnings describe profit over a stated accounting period. Revenue, cash flow and profit measure different things.",
+    "event_types": [
+      "earnings"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "guidance",
+    "term": "Company guidance",
+    "explanation": "Guidance is management\u2019s forecast. A change in guidance changes what management expects; it does not guarantee the final result.",
+    "event_types": [
+      "profit_warning"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/how-read-investments",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "liquidity",
+    "term": "Liquidity",
+    "explanation": "Liquidity can mean how readily an asset can be exchanged for cash, or whether an institution can meet payments when due.",
+    "event_types": [
+      "emergency"
+    ],
+    "url": "https://www.bankofengland.co.uk/explainers/what-is-financial-stability",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "bond",
+    "term": "Bond",
+    "explanation": "A bond is a debt obligation. Its terms specify payments, maturity and the borrower\u2019s obligations.",
+    "event_types": [
+      "filing"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "yield",
+    "term": "Bond yield",
+    "explanation": "Yield expresses a bond\u2019s income or implied return relative to its price under specified assumptions. It is not a guarantee.",
+    "event_types": [
+      "rate_decision"
+    ],
+    "url": "https://www.finra.org/investors/investing/investment-products/bonds",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "duration",
+    "term": "Duration",
+    "explanation": "Duration estimates a bond\u2019s sensitivity to changes in yields. It is an approximation that depends on assumptions.",
+    "event_types": [
+      "research"
+    ],
+    "url": "https://www.finra.org/investors/insights/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "credit-risk",
+    "term": "Credit risk",
+    "explanation": "Credit risk is the possibility that a borrower will not meet its promised payments.",
+    "event_types": [
+      "emergency"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "fx",
+    "term": "Exchange rate",
+    "explanation": "An exchange rate states the price of one currency in another. Always check which currency is the base.",
+    "event_types": [
+      "other"
+    ],
+    "url": "https://www.rba.gov.au/education/resources/explainers/exchange-rates-and-their-measurement.html",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "gdp",
+    "term": "Gross domestic product",
+    "explanation": "GDP measures production within an economy over a period. It does not describe every aspect of living standards.",
+    "event_types": [
+      "research"
+    ],
+    "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "unemployment",
+    "term": "Unemployment rate",
+    "explanation": "The unemployment rate measures unemployed people as a share of the labour force under a specific statistical definition.",
+    "event_types": [
+      "employment"
+    ],
+    "url": "https://www.bls.gov/cps/cps_htgm.htm",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "revision",
+    "term": "Data revisions",
+    "explanation": "Revisions update earlier estimates when more information or changed methods become available. Compare the same vintage when possible.",
+    "event_types": [
+      "employment",
+      "inflation"
+    ],
+    "url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "base-effects",
+    "term": "Base effects",
+    "explanation": "A year-over-year comparison depends on the level a year earlier as well as the current level.",
+    "event_types": [
+      "inflation"
+    ],
+    "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/what_is_inflation.en.html",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "etf",
+    "term": "Exchange-traded fund",
+    "explanation": "An ETF holds a pool of assets and has shares traded on an exchange. Its costs, holdings and structure matter.",
+    "event_types": [
+      "other"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/exchange-traded-funds-etfs",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "share-class",
+    "term": "Fund share class",
+    "explanation": "Share classes can have different fees, currency treatment or distribution rules within a fund. Identify the exact class.",
+    "event_types": [
+      "filing"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "expense-ratio",
+    "term": "Fund expenses",
+    "explanation": "Recurring fund expenses reduce the fund\u2019s assets. The stated expense ratio is separate from some transaction costs.",
+    "event_types": [
+      "other"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "tracking",
+    "term": "Tracking difference",
+    "explanation": "Tracking difference compares a fund\u2019s result with its reference index over the same period and on a consistent basis.",
+    "event_types": [
+      "research"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/index-funds",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "diversification",
+    "term": "Diversification",
+    "explanation": "Diversification spreads exposure among different assets or risks. It cannot remove every risk.",
+    "event_types": [
+      "research"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "market-cap",
+    "term": "Market capitalization",
+    "explanation": "Market capitalization multiplies the share price by the relevant number of shares. It is not the same as the company\u2019s cash.",
+    "event_types": [
+      "earnings"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "cash-flow",
+    "term": "Cash flow",
+    "explanation": "Cash flow records cash moving in and out. Accrual accounting can recognize revenue or expenses at different times.",
+    "event_types": [
+      "earnings"
+    ],
+    "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "dilution",
+    "term": "Share dilution",
+    "explanation": "Issuing additional shares can reduce an existing holder\u2019s percentage ownership. The reason and terms of the issue matter.",
+    "event_types": [
+      "filing"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "futures",
+    "term": "Futures contract",
+    "explanation": "A futures contract sets terms for a future transaction. Futures prices and physical spot prices describe different markets.",
+    "event_types": [
+      "energy_report"
+    ],
+    "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/FuturesMarketBasics/index.htm",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "options",
+    "term": "Options",
+    "explanation": "An option gives its holder a contractual right with defined terms and an expiry. Different positions have different risks.",
+    "event_types": [
+      "research"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/options",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "leverage",
+    "term": "Leverage",
+    "explanation": "Leverage creates exposure larger than the capital committed. It can magnify both changes in value and losses.",
+    "event_types": [
+      "emergency"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/margin",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "inventory",
+    "term": "Energy inventories",
+    "explanation": "Inventories measure stored supplies at a stated date. Definitions and coverage differ between reports.",
+    "event_types": [
+      "energy_report"
+    ],
+    "url": "https://www.eia.gov/petroleum/supply/weekly/",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "blockchain",
+    "term": "Blockchain records",
+    "explanation": "A blockchain records transactions under a protocol\u2019s rules. A transaction record alone does not establish an asset\u2019s value or legal status.",
+    "event_types": [
+      "other"
+    ],
+    "url": "https://www.nist.gov/blockchain",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "custody",
+    "term": "Asset custody",
+    "explanation": "Custody describes how assets or the credentials controlling them are held. Legal rights and access arrangements depend on the setup.",
+    "event_types": [
+      "enforcement"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/crypto-assets",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  },
+  {
+    "id": "working-paper",
+    "term": "Working papers",
+    "explanation": "A working paper presents research that may change. Its assumptions, methods and uncertainty deserve attention before its conclusions are generalized.",
+    "event_types": [
+      "research"
+    ],
+    "url": "https://www.bis.org/list/workpap/index.htm",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false
+  }
+]

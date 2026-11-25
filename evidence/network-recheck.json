@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-13T05:33:09.926538+00:00",
+  "dns": [
+    {
+      "host": "www.federalreserve.gov",
+      "ok": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "latency_ms": 4.2
+    },
+    {
+      "host": "www.ecb.europa.eu",
+      "ok": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "latency_ms": 0.1
+    },
+    {
+      "host": "www.norges-bank.no",
+      "ok": false,
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "latency_ms": 0.0
+    }
+  ],
+  "fetch": {
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "http_status": null,
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "network_available": false
+}

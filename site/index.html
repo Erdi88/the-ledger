@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An independent daily reading habit for understanding markets.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<title>THE LEDGER — Understand the markets</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the edition</a>
+<div class="page">
+<header>
+<div class="utility"><span id="edition-time">Edition unavailable</span><button id="theme" type="button" aria-label="Switch color mode">Dark mode</button></div>
+<div id="status" class="status" role="status">Loading the local edition…</div>
+<div id="stale" class="notice" role="alert" hidden></div>
+<div id="partial" class="notice" hidden></div>
+<div class="masthead"><p class="eyebrow">An independent financial newspaper</p><h1>THE LEDGER</h1><p class="tagline">Understand the markets. See beyond the headlines.</p></div>
+<div class="edition-nav"><a href="#top">The daily five</a><a href="#full">Full edition</a><a href="#learn">Worth learning</a><a href="#shelf">Research shelf</a></div>
+</header>
+<main id="main">
+<section id="top" aria-labelledby="top-heading"><div class="section-heading"><h2 id="top-heading">Your daily five</h2><span id="reading-time">A short daily read</span></div><p class="intro">The events worth understanding. Open the original when you want to go further.</p><div id="top-stories"></div></section>
+<section id="coverage"><details open><summary>Coverage today</summary><p class="muted">Missing coverage means we could not check. It does not mean nothing happened.</p><div id="coverage-list"></div></details></section>
+<section id="learn"><div class="section-heading"><h2>One thing worth learning</h2><span>Build your understanding</span></div><div id="learning"></div></section>
+<section id="full"><div class="section-heading"><h2>The full edition</h2><span>Follow your curiosity</span></div><nav id="filters" aria-label="Filter stories"></nav><div id="filter-warning" class="filter-warning" aria-live="polite"></div><div id="full-stories"></div></section>
+<section id="shelf"><div class="section-heading"><h2>The research shelf</h2><span>A weekly selection</span></div><p class="intro">Older ideas, examined slowly. These documents are reading material, not today’s news.</p><div id="research"></div></section>
+<section class="archive"><h2>Past editions</h2><label for="archive-select">Choose an edition</label> <select id="archive-select"><option value="">Latest edition</option></select><p class="muted">Original editions are preserved. Material corrections are dated and shown with their story.</p></section>
+</main>
+<footer><strong>THE LEDGER</strong><p>For understanding, not financial advice. Source quality controls eligibility; editorial scores do not predict returns.</p><p>Read and saved states stay in this browser. No analytics, accounts, or automatic sharing.</p></footer>
+</div>
+<dialog id="copy-dialog"><h2>Copy Story Pack</h2><p>Clipboard access is unavailable. Select and copy the text below.</p><textarea id="copy-text" readonly rows="12" aria-label="Story pack text"></textarea><button id="close-copy" type="button">Close</button></dialog>
+<noscript><p class="notice">JavaScript is required to render the generated edition. You can inspect the JSON in site/data/latest.json.</p></noscript>
+</body></html>

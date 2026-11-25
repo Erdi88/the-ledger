@@ -1,0 +1,723 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "edition_at": "2026-11-25T12:41:57.229964Z",
+  "status": "PARTIAL",
+  "fixture": false,
+  "verification_status": "LIVE-VERIFIED",
+  "deployable": true,
+  "publication_allowed": true,
+  "missing_categories": [
+    "equities"
+  ],
+  "coverage": {
+    "equities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "funds": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No critical source configured"
+    },
+    "crypto": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No critical source configured"
+    },
+    "macro": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": null
+    },
+    "bonds": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": null
+    },
+    "fx": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": null
+    },
+    "commodities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "derivatives": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-25T12:41:57.229964Z",
+      "reason": "No critical source configured"
+    }
+  },
+  "filter_summary": {
+    "filtered_count": 50,
+    "total_count": 63
+  },
+  "stories": [
+    {
+      "id": "ee53adbaa022cb629b983f02",
+      "original_title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "publisher": "Federal Reserve",
+      "source_id": "fed",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "event_at": null,
+      "published_at": "2026-11-24T19:00:00Z",
+      "retrieved_at": "2026-11-25T12:41:57.229964Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "document_id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+        "retrieved_at": "2026-11-25T12:41:57.229964Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: US government work; Federal Reserve permits use of its press content. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "monetary_minutes",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+          "published_at": "2026-11-24T19:00:00Z",
+          "origin_id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
+        }
+      ],
+      "independent_origins": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "2e6b712d4cb984b2f16134f0",
+      "score_components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 4,
+        "educational_value": 5
+      },
+      "editorial_score": 4.1,
+      "ranking_reason": "monetary minutes: significance 3/5 (0 documented modifiers), novelty 5/5, freshness 4/5, breadth 4/5, learning 5/5.",
+      "what_happened": "Federal Reserve published: Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    },
+    {
+      "id": "c0c4ef66e0d9307c0568eff5",
+      "original_title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "publisher": "Federal Reserve",
+      "source_id": "fed",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "event_at": null,
+      "published_at": "2026-11-18T19:00:00Z",
+      "retrieved_at": "2026-11-25T12:41:57.229964Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "document_id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+        "retrieved_at": "2026-11-25T12:41:57.229964Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: US government work; Federal Reserve permits use of its press content. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "monetary_minutes",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+          "published_at": "2026-11-18T19:00:00Z",
+          "origin_id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        }
+      ],
+      "independent_origins": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "00ad975589092dd89245f3e0",
+      "score_components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 2,
+        "breadth": 4,
+        "educational_value": 5
+      },
+      "editorial_score": 3.8,
+      "ranking_reason": "monetary minutes: significance 3/5 (0 documented modifiers), novelty 5/5, freshness 2/5, breadth 4/5, learning 5/5.",
+      "what_happened": "Federal Reserve published: Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    },
+    {
+      "id": "58bc7856b7cca52e51e9544d",
+      "original_title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "publisher": "ECB",
+      "source_id": "ecb",
+      "canonical_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+      "event_at": null,
+      "published_at": "2026-11-24T11:00:00Z",
+      "retrieved_at": "2026-11-25T12:41:57.229964Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.ecb.europa.eu/rss/press.html",
+        "document_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+        "retrieved_at": "2026-11-25T12:41:57.229964Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: ECB permits reproduction with source acknowledgement. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "speech",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "ECB",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+          "published_at": "2026-11-24T11:00:00Z",
+          "origin_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+        }
+      ],
+      "independent_origins": [
+        "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "39dddd55b9647347730d0e09",
+      "score_components": {
+        "significance": 2,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 4,
+        "educational_value": 4
+      },
+      "editorial_score": 3.6,
+      "ranking_reason": "speech: significance 2/5 (0 documented modifiers), novelty 5/5, freshness 4/5, breadth 4/5, learning 4/5.",
+      "what_happened": "ECB published: Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    },
+    {
+      "id": "9f91174a0be70691ec4c06cd",
+      "original_title": "Philip R. Lane: Climate change and monetary policy",
+      "publisher": "ECB",
+      "source_id": "ecb",
+      "canonical_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+      "event_at": null,
+      "published_at": "2026-11-23T14:30:00Z",
+      "retrieved_at": "2026-11-25T12:41:57.229964Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.ecb.europa.eu/rss/press.html",
+        "document_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+        "retrieved_at": "2026-11-25T12:41:57.229964Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: ECB permits reproduction with source acknowledgement. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "speech",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "ECB",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+          "published_at": "2026-11-23T14:30:00Z",
+          "origin_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+        }
+      ],
+      "independent_origins": [
+        "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "cbc0d17f2041205dc9d05303",
+      "score_components": {
+        "significance": 2,
+        "novelty": 5,
+        "timeliness": 3,
+        "breadth": 4,
+        "educational_value": 4
+      },
+      "editorial_score": 3.45,
+      "ranking_reason": "speech: significance 2/5 (0 documented modifiers), novelty 5/5, freshness 3/5, breadth 4/5, learning 4/5.",
+      "what_happened": "ECB published: Philip R. Lane: Climate change and monetary policy",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    },
+    {
+      "id": "325a2d06cee138cc11ca9d61",
+      "original_title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "publisher": "Federal Reserve",
+      "source_id": "fed",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "event_at": null,
+      "published_at": "2026-11-19T16:00:00Z",
+      "retrieved_at": "2026-11-25T12:41:57.229964Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "document_id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+        "retrieved_at": "2026-11-25T12:41:57.229964Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: US government work; Federal Reserve permits use of its press content. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "enforcement",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+          "published_at": "2026-11-19T16:00:00Z",
+          "origin_id": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+        }
+      ],
+      "independent_origins": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "55096205cac519fdd5f9b96d",
+      "score_components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 2,
+        "breadth": 4,
+        "educational_value": 3
+      },
+      "editorial_score": 3.4,
+      "ranking_reason": "enforcement: significance 3/5 (0 documented modifiers), novelty 5/5, freshness 2/5, breadth 4/5, learning 3/5.",
+      "what_happened": "Federal Reserve published: Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    },
+    {
+      "id": "e6c33934d167226da4b7c804",
+      "original_title": "Christine Lagarde: Acting in time",
+      "publisher": "ECB",
+      "source_id": "ecb",
+      "canonical_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+      "event_at": null,
+      "published_at": "2026-11-20T08:30:00Z",
+      "retrieved_at": "2026-11-25T12:41:57.229964Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.ecb.europa.eu/rss/press.html",
+        "document_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+        "retrieved_at": "2026-11-25T12:41:57.229964Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: ECB permits reproduction with source acknowledgement. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "speech",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "ECB",
+          "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+          "published_at": "2026-11-20T08:30:00Z",
+          "origin_id": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        }
+      ],
+      "independent_origins": [
+        "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "1228825d161ddb6363346567",
+      "score_components": {
+        "significance": 2,
+        "novelty": 5,
+        "timeliness": 2,
+        "breadth": 4,
+        "educational_value": 4
+      },
+      "editorial_score": 3.3,
+      "ranking_reason": "speech: significance 2/5 (0 documented modifiers), novelty 5/5, freshness 2/5, breadth 4/5, learning 4/5.",
+      "what_happened": "ECB published: Christine Lagarde: Acting in time",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    }
+  ],
+  "top_ids": [
+    "ee53adbaa022cb629b983f02",
+    "c0c4ef66e0d9307c0568eff5",
+    "58bc7856b7cca52e51e9544d",
+    "9f91174a0be70691ec4c06cd",
+    "325a2d06cee138cc11ca9d61"
+  ],
+  "learning": {
+    "id": "custody",
+    "term": "Asset custody",
+    "explanation": "Custody describes how assets or the credentials controlling them are held. Legal rights and access arrangements depend on the setup.",
+    "event_types": [
+      "enforcement"
+    ],
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/crypto-assets",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false,
+    "tied_to": "325a2d06cee138cc11ca9d61",
+    "context": "Related to a featured story"
+  },
+  "research_shelf": [],
+  "corrections": [],
+  "ranking_policy": {
+    "weights": {
+      "significance": 0.3,
+      "novelty": 0.2,
+      "timeliness": 0.15,
+      "breadth": 0.15,
+      "educational_value": 0.2
+    },
+    "baseline": {
+      "emergency": 4,
+      "profit_warning": 3,
+      "earnings": 2,
+      "rate_decision": 3,
+      "inflation": 3,
+      "employment": 3,
+      "enforcement": 3,
+      "energy_report": 2,
+      "fed_application_approval": 0,
+      "enforcement_termination": 0,
+      "boe_committee_minutes": 0,
+      "research": 2,
+      "filing": 1,
+      "other": 1,
+      "monetary_minutes": 3,
+      "speech": 2,
+      "rulemaking": 2
+    },
+    "top_excluded_event_types": [
+      "fed_application_approval",
+      "enforcement_termination",
+      "boe_committee_minutes"
+    ],
+    "freshness_hours": {
+      "reporting": 48,
+      "official_disclosure": 168,
+      "research": 2160,
+      "opinion": 72,
+      "promotional": 0,
+      "pointer": 0
+    },
+    "educational": {
+      "rate_decision": 5,
+      "inflation": 5,
+      "employment": 4,
+      "earnings": 4,
+      "profit_warning": 4,
+      "emergency": 4,
+      "enforcement": 3,
+      "energy_report": 4,
+      "fed_application_approval": 1,
+      "enforcement_termination": 1,
+      "boe_committee_minutes": 1,
+      "research": 5,
+      "filing": 2,
+      "other": 1,
+      "monetary_minutes": 5,
+      "speech": 4,
+      "rulemaking": 3
+    }
+  },
+  "editorial_overrides": []
+}

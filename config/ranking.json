@@ -1,0 +1,60 @@
+{
+  "weights": {
+    "significance": 0.3,
+    "novelty": 0.2,
+    "timeliness": 0.15,
+    "breadth": 0.15,
+    "educational_value": 0.2
+  },
+  "baseline": {
+    "emergency": 4,
+    "profit_warning": 3,
+    "earnings": 2,
+    "rate_decision": 3,
+    "inflation": 3,
+    "employment": 3,
+    "enforcement": 3,
+    "energy_report": 2,
+    "fed_application_approval": 0,
+    "enforcement_termination": 0,
+    "boe_committee_minutes": 0,
+    "research": 2,
+    "filing": 1,
+    "other": 1,
+    "monetary_minutes": 3,
+    "speech": 2,
+    "rulemaking": 2
+  },
+  "top_excluded_event_types": [
+    "fed_application_approval",
+    "enforcement_termination",
+    "boe_committee_minutes"
+  ],
+  "freshness_hours": {
+    "reporting": 48,
+    "official_disclosure": 168,
+    "research": 2160,
+    "opinion": 72,
+    "promotional": 0,
+    "pointer": 0
+  },
+  "educational": {
+    "rate_decision": 5,
+    "inflation": 5,
+    "employment": 4,
+    "earnings": 4,
+    "profit_warning": 4,
+    "emergency": 4,
+    "enforcement": 3,
+    "energy_report": 4,
+    "fed_application_approval": 1,
+    "enforcement_termination": 1,
+    "boe_committee_minutes": 1,
+    "research": 5,
+    "filing": 2,
+    "other": 1,
+    "monetary_minutes": 5,
+    "speech": 4,
+    "rulemaking": 3
+  }
+}
