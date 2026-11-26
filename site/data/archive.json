@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-26",
+    "path": "editions/2026-11-26.json",
+    "sha256": "328a6d165919f6372e927bc3eb71ed06aad02c5887d06d549400c031f12acd04"
+  },
+  {
     "date": "2026-11-25",
     "path": "editions/2026-11-25.json",
     "sha256": "e3d8a6d359cdee0ffcba0eb012a3f2c2218b12f2b953528f4be721e11190f445"

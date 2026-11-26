@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "edition_at": "2026-11-26T13:32:11.401986Z",
+  "status": "PARTIAL",
+  "fixture": false,
+  "verification_status": "LIVE-VERIFIED",
+  "deployable": true,
+  "publication_allowed": true,
+  "missing_categories": [
+    "equities"
+  ],
+  "coverage": {
+    "equities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "funds": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": "No critical source configured"
+    },
+    "crypto": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": "No critical source configured"
+    },
+    "macro": {
+      "state": "CHECKED_QUIET",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": null
+    },
+    "bonds": {
+      "state": "CHECKED_QUIET",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": null
+    },
+    "fx": {
+      "state": "CHECKED_QUIET",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": null
+    },
+    "commodities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "derivatives": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "reason": "No critical source configured"
+    }
+  },
+  "filter_summary": {
+    "filtered_count": 46,
+    "total_count": 64
+  },
+  "stories": [],
+  "top_ids": [],
+  "learning": {
+    "id": "inventory",
+    "term": "Energy inventories",
+    "explanation": "Inventories measure stored supplies at a stated date. Definitions and coverage differ between reports.",
+    "event_types": [
+      "energy_report"
+    ],
+    "url": "https://www.eia.gov/petroleum/supply/weekly/",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false,
+    "tied_to": null,
+    "context": "Not tied to today's news"
+  },
+  "research_shelf": [],
+  "corrections": [],
+  "ranking_policy": {
+    "weights": {
+      "significance": 0.3,
+      "novelty": 0.2,
+      "timeliness": 0.15,
+      "breadth": 0.15,
+      "educational_value": 0.2
+    },
+    "baseline": {
+      "emergency": 4,
+      "profit_warning": 3,
+      "earnings": 2,
+      "rate_decision": 3,
+      "inflation": 3,
+      "employment": 3,
+      "enforcement": 3,
+      "energy_report": 2,
+      "fed_application_approval": 0,
+      "enforcement_termination": 0,
+      "boe_committee_minutes": 0,
+      "research": 2,
+      "filing": 1,
+      "other": 1,
+      "monetary_minutes": 3,
+      "speech": 2,
+      "rulemaking": 2
+    },
+    "top_excluded_event_types": [
+      "fed_application_approval",
+      "enforcement_termination",
+      "boe_committee_minutes"
+    ],
+    "freshness_hours": {
+      "reporting": 48,
+      "official_disclosure": 168,
+      "research": 2160,
+      "opinion": 72,
+      "promotional": 0,
+      "pointer": 0
+    },
+    "educational": {
+      "rate_decision": 5,
+      "inflation": 5,
+      "employment": 4,
+      "earnings": 4,
+      "profit_warning": 4,
+      "emergency": 4,
+      "enforcement": 3,
+      "energy_report": 4,
+      "fed_application_approval": 1,
+      "enforcement_termination": 1,
+      "boe_committee_minutes": 1,
+      "research": 5,
+      "filing": 2,
+      "other": 1,
+      "monetary_minutes": 5,
+      "speech": 4,
+      "rulemaking": 3
+    }
+  },
+  "editorial_overrides": []
+}
