@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "date": "2026-11-26",
-  "edition_at": "2026-11-26T13:32:11.401986Z",
+  "date": "2026-11-27",
+  "edition_at": "2026-11-27T13:28:16.185117Z",
   "status": "PARTIAL",
   "fixture": false,
   "verification_status": "LIVE-VERIFIED",
@@ -17,7 +17,7 @@
       "checked_sources": [],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": "No sources succeeded or configured"
     },
     "funds": {
@@ -28,7 +28,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": "No critical source configured"
     },
     "crypto": {
@@ -39,7 +39,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": "No critical source configured"
     },
     "macro": {
@@ -52,7 +52,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": null
     },
     "bonds": {
@@ -65,7 +65,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": null
     },
     "fx": {
@@ -77,7 +77,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": null
     },
     "commodities": {
@@ -86,7 +86,7 @@
       "checked_sources": [],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": "No sources succeeded or configured"
     },
     "derivatives": {
@@ -97,24 +97,24 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-26T13:32:11.401986Z",
+      "checked_at": "2026-11-27T13:28:16.185117Z",
       "reason": "No critical source configured"
     }
   },
   "filter_summary": {
-    "filtered_count": 46,
+    "filtered_count": 48,
     "total_count": 64
   },
   "stories": [],
   "top_ids": [],
   "learning": {
-    "id": "inventory",
-    "term": "Energy inventories",
-    "explanation": "Inventories measure stored supplies at a stated date. Definitions and coverage differ between reports.",
+    "id": "blockchain",
+    "term": "Blockchain records",
+    "explanation": "A blockchain records transactions under a protocol’s rules. A transaction record alone does not establish an asset’s value or legal status.",
     "event_types": [
-      "energy_report"
+      "other"
     ],
-    "url": "https://www.eia.gov/petroleum/supply/weekly/",
+    "url": "https://www.nist.gov/blockchain",
     "review_status": "needs human review",
     "reviewed_by": null,
     "reviewed_at": null,
