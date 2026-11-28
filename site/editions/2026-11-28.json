@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "edition_at": "2026-11-28T12:42:30.531728Z",
+  "status": "PARTIAL",
+  "fixture": false,
+  "verification_status": "LIVE-VERIFIED",
+  "deployable": true,
+  "publication_allowed": true,
+  "missing_categories": [
+    "equities"
+  ],
+  "coverage": {
+    "equities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "funds": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": "No critical source configured"
+    },
+    "crypto": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "SEC press releases"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": "No critical source configured"
+    },
+    "macro": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": null
+    },
+    "bonds": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB",
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": null
+    },
+    "fx": {
+      "state": "CHECKED_WITH_STORIES",
+      "degraded": false,
+      "checked_sources": [
+        "Federal Reserve",
+        "ECB"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": null
+    },
+    "commodities": {
+      "state": "NOT_CHECKED",
+      "degraded": false,
+      "checked_sources": [],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": "No sources succeeded or configured"
+    },
+    "derivatives": {
+      "state": "PARTIAL",
+      "degraded": false,
+      "checked_sources": [
+        "BIS"
+      ],
+      "failed_sources": [],
+      "failed_critical_sources": [],
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "reason": "No critical source configured"
+    }
+  },
+  "filter_summary": {
+    "filtered_count": 49,
+    "total_count": 63
+  },
+  "stories": [
+    {
+      "id": "52093f454fd05226ac0068fe",
+      "original_title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "publisher": "ECB",
+      "source_id": "ecb",
+      "canonical_url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+      "event_at": null,
+      "published_at": "2026-11-27T14:00:00Z",
+      "retrieved_at": "2026-11-28T12:42:30.531728Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.ecb.europa.eu/rss/press.html",
+        "document_id": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+        "retrieved_at": "2026-11-28T12:42:30.531728Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: ECB permits reproduction with source acknowledgement. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "rate_decision",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "ECB",
+          "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+          "published_at": "2026-11-27T14:00:00Z",
+          "origin_id": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
+        }
+      ],
+      "independent_origins": [
+        "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "c77d6f4b00b8b594ebd3bf7d",
+      "score_components": {
+        "significance": 3,
+        "novelty": 5,
+        "timeliness": 4,
+        "breadth": 4,
+        "educational_value": 5
+      },
+      "editorial_score": 4.1,
+      "ranking_reason": "rate decision: significance 3/5 (0 documented modifiers), novelty 5/5, freshness 4/5, breadth 4/5, learning 5/5.",
+      "what_happened": "ECB published: Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    },
+    {
+      "id": "f2e3018ce6bf1751a2f34860",
+      "original_title": "Boris Vujčić: Interview with Kurier",
+      "publisher": "ECB",
+      "source_id": "ecb",
+      "canonical_url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html",
+      "event_at": null,
+      "published_at": "2026-11-28T08:00:00Z",
+      "retrieved_at": "2026-11-28T12:42:30.531728Z",
+      "corrected_at": null,
+      "publication_precision": "instant",
+      "original_language": "en",
+      "display_language": "en",
+      "source_tier": "P",
+      "content_type": "official_disclosure",
+      "asset_classes": [
+        "macro",
+        "bonds",
+        "fx"
+      ],
+      "identifiers": [],
+      "permitted_excerpt": "",
+      "primary_source_links": [
+        "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html"
+      ],
+      "access_restrictions": "public metadata; open publisher for document",
+      "collection_status": "SUCCEEDED",
+      "provenance": {
+        "source_url": "https://www.ecb.europa.eu/rss/press.html",
+        "document_id": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html",
+        "retrieved_at": "2026-11-28T12:42:30.531728Z",
+        "fixture": false,
+        "terms_note": "Reviewed 2026-11-25: ECB permits reproduction with source acknowledgement. Headline and link only.",
+        "original_asset_classes": [
+          "macro",
+          "bonds",
+          "fx"
+        ]
+      },
+      "event_type": "speech",
+      "explanation_source": "UNAVAILABLE",
+      "evidence_kind": "confirmed event",
+      "fixture": false,
+      "data_revision": "unknown",
+      "substantive_reviewed": false,
+      "instrument_context": {},
+      "evidence_modifiers": [],
+      "claims": [],
+      "event_key": null,
+      "origin_id": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html",
+      "material_update": false,
+      "topic_outcome": "KEEP",
+      "topic_rule": "official financial authority publication; keyword topic filter applies to secondary reporting only",
+      "topic_matched_terms": [],
+      "eligibility": "VERIFIED",
+      "eligibility_reason": "Primary publication supports the event; issuer claims remain attributed",
+      "disagreements": [],
+      "cluster_sources": [
+        {
+          "publisher": "ECB",
+          "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html",
+          "published_at": "2026-11-28T08:00:00Z",
+          "origin_id": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html"
+        }
+      ],
+      "independent_origins": [
+        "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html"
+      ],
+      "cluster_reason": "Canonical URL, publisher document ID, exact dated title, or reviewed event key; no name-only merge",
+      "cluster_id": "0891dd1591f20cb7077dabdd",
+      "score_components": {
+        "significance": 2,
+        "novelty": 5,
+        "timeliness": 5,
+        "breadth": 4,
+        "educational_value": 4
+      },
+      "editorial_score": 3.75,
+      "ranking_reason": "speech: significance 2/5 (0 documented modifiers), novelty 5/5, freshness 5/5, breadth 4/5, learning 4/5.",
+      "what_happened": "ECB published: Boris Vujčić: Interview with Kurier",
+      "why_it_matters": {
+        "origin": "UNAVAILABLE",
+        "text": "Explanation unavailable today",
+        "source_url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html"
+      },
+      "what_confirmed": "The source published the linked document. Its claims remain attributable to the publisher.",
+      "what_uncertain": "Broader effects are unknown. No single cause established for any price movement."
+    }
+  ],
+  "top_ids": [
+    "52093f454fd05226ac0068fe",
+    "f2e3018ce6bf1751a2f34860"
+  ],
+  "learning": {
+    "id": "policy-rate",
+    "term": "Policy rate",
+    "explanation": "A central bank’s policy rate helps influence short-term borrowing costs. Other interest rates also depend on risk and expectations.",
+    "event_types": [
+      "rate_decision"
+    ],
+    "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/key_interest_rates.en.html",
+    "review_status": "needs human review",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "link_verified": false,
+    "tied_to": "52093f454fd05226ac0068fe",
+    "context": "Related to a featured story"
+  },
+  "research_shelf": [],
+  "corrections": [],
+  "ranking_policy": {
+    "weights": {
+      "significance": 0.3,
+      "novelty": 0.2,
+      "timeliness": 0.15,
+      "breadth": 0.15,
+      "educational_value": 0.2
+    },
+    "baseline": {
+      "emergency": 4,
+      "profit_warning": 3,
+      "earnings": 2,
+      "rate_decision": 3,
+      "inflation": 3,
+      "employment": 3,
+      "enforcement": 3,
+      "energy_report": 2,
+      "fed_application_approval": 0,
+      "enforcement_termination": 0,
+      "boe_committee_minutes": 0,
+      "research": 2,
+      "filing": 1,
+      "other": 1,
+      "monetary_minutes": 3,
+      "speech": 2,
+      "rulemaking": 2
+    },
+    "top_excluded_event_types": [
+      "fed_application_approval",
+      "enforcement_termination",
+      "boe_committee_minutes"
+    ],
+    "freshness_hours": {
+      "reporting": 48,
+      "official_disclosure": 168,
+      "research": 2160,
+      "opinion": 72,
+      "promotional": 0,
+      "pointer": 0
+    },
+    "educational": {
+      "rate_decision": 5,
+      "inflation": 5,
+      "employment": 4,
+      "earnings": 4,
+      "profit_warning": 4,
+      "emergency": 4,
+      "enforcement": 3,
+      "energy_report": 4,
+      "fed_application_approval": 1,
+      "enforcement_termination": 1,
+      "boe_committee_minutes": 1,
+      "research": 5,
+      "filing": 2,
+      "other": 1,
+      "monetary_minutes": 5,
+      "speech": 4,
+      "rulemaking": 3
+    }
+  },
+  "editorial_overrides": []
+}

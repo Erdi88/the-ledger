@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-27T13:28:16.185117Z",
+  "at": "2026-11-28T12:42:30.531728Z",
   "fixture": false,
   "verification_status": "LIVE-VERIFIED",
   "source_health": [
@@ -8,15 +8,15 @@
       "publisher": "Federal Reserve",
       "status": "SUCCEEDED",
       "reason": null,
-      "checked_at": "2026-11-27T13:28:16.185117Z",
-      "last_success": "2026-11-27T13:28:16.185117Z",
-      "last_nonempty_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "last_success": "2026-11-28T12:42:30.531728Z",
+      "last_nonempty_at": "2026-11-28T12:42:30.531728Z",
       "failures": 0,
       "item_count": 20,
       "newest_published_at": "2026-11-25T20:00:00Z",
-      "publication_latency_hours": 41.47,
+      "publication_latency_hours": 64.71,
       "http_status": 200,
-      "latency_ms": 1978.4,
+      "latency_ms": 1945.7,
       "final_url": "https://www.federalreserve.gov/feeds/press_all.xml",
       "body_sha256": "e934bc18251c5823b5653d09f9f567a8d3c14b2feaac2e6c45bbbee5332862f4",
       "structure_valid": true
@@ -26,33 +26,33 @@
       "publisher": "ECB",
       "status": "SUCCEEDED",
       "reason": null,
-      "checked_at": "2026-11-27T13:28:16.185117Z",
-      "last_success": "2026-11-27T13:28:16.185117Z",
-      "last_nonempty_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "last_success": "2026-11-28T12:42:30.531728Z",
+      "last_nonempty_at": "2026-11-28T12:42:30.531728Z",
       "failures": 0,
       "item_count": 15,
-      "newest_published_at": "2026-11-27T09:00:00Z",
-      "publication_latency_hours": 4.47,
+      "newest_published_at": "2026-11-28T08:00:00Z",
+      "publication_latency_hours": 4.71,
       "http_status": 200,
-      "latency_ms": 4994.7,
+      "latency_ms": 4988.7,
       "final_url": "https://www.ecb.europa.eu/rss/press.html",
-      "body_sha256": "5f009f51a8637b5092a5f5f3254f0d0ba68306eb77ec56d76f79a067572c2fd4",
+      "body_sha256": "91af21cf1215b682bc2ba542f55e42cadc59bf333908c6f0688b74b0efc238b2",
       "structure_valid": true
     },
     {
       "source_id": "bls",
       "publisher": "BLS",
-      "status": "SUCCEEDED",
-      "reason": null,
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "status": "FAILED",
+      "reason": "Frozen/silent beyond 168 hours",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "last_success": "2026-11-27T13:28:16.185117Z",
       "last_nonempty_at": "2026-11-27T13:28:16.185117Z",
-      "failures": 0,
+      "failures": 1,
       "item_count": 1,
       "newest_published_at": "2026-11-20T15:03:24Z",
-      "publication_latency_hours": 166.41,
+      "publication_latency_hours": 189.65,
       "http_status": 200,
-      "latency_ms": 1977.0,
+      "latency_ms": 1965.2,
       "final_url": "https://www.bls.gov/feed/bls_latest.rss",
       "body_sha256": "c122add0a98db4545fd0c40dde12e5b434eff3a0e1fa4cbcb1865f8fbfda7e10",
       "structure_valid": true
@@ -62,15 +62,15 @@
       "publisher": "BIS",
       "status": "SUCCEEDED",
       "reason": null,
-      "checked_at": "2026-11-27T13:28:16.185117Z",
-      "last_success": "2026-11-27T13:28:16.185117Z",
-      "last_nonempty_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "last_success": "2026-11-28T12:42:30.531728Z",
+      "last_nonempty_at": "2026-11-28T12:42:30.531728Z",
       "failures": 0,
       "item_count": 3,
       "newest_published_at": "2026-11-25T00:00:00Z",
-      "publication_latency_hours": 61.47,
+      "publication_latency_hours": 84.71,
       "http_status": 200,
-      "latency_ms": 5454.7,
+      "latency_ms": 2035.0,
       "final_url": "https://www.bis.org/doclist/all_pressrels.rss",
       "body_sha256": "bb7a485d768566daeb6d9e04f9c5d1f9bd85c49cb6469eec92056cf0f7e8a35c",
       "structure_valid": true
@@ -80,15 +80,15 @@
       "publisher": "SEC press releases",
       "status": "SUCCEEDED",
       "reason": null,
-      "checked_at": "2026-11-27T13:28:16.185117Z",
-      "last_success": "2026-11-27T13:28:16.185117Z",
-      "last_nonempty_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
+      "last_success": "2026-11-28T12:42:30.531728Z",
+      "last_nonempty_at": "2026-11-28T12:42:30.531728Z",
       "failures": 0,
       "item_count": 25,
       "newest_published_at": "2026-11-25T14:10:24Z",
-      "publication_latency_hours": 47.3,
+      "publication_latency_hours": 70.54,
       "http_status": 200,
-      "latency_ms": 2004.9,
+      "latency_ms": 1980.5,
       "final_url": "https://www.sec.gov/news/pressreleases.rss",
       "body_sha256": "c7a1304e21c549b4ec6cf93a3705bbbde11de8809f76109b26cb5492983411cd",
       "structure_valid": true
@@ -119,7 +119,7 @@
       "checked_sources": [],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": "No sources succeeded or configured"
     },
     "funds": {
@@ -130,7 +130,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": "No critical source configured"
     },
     "crypto": {
@@ -141,11 +141,11 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": "No critical source configured"
     },
     "macro": {
-      "state": "CHECKED_QUIET",
+      "state": "CHECKED_WITH_STORIES",
       "degraded": false,
       "checked_sources": [
         "Federal Reserve",
@@ -154,11 +154,11 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": null
     },
     "bonds": {
-      "state": "CHECKED_QUIET",
+      "state": "CHECKED_WITH_STORIES",
       "degraded": false,
       "checked_sources": [
         "Federal Reserve",
@@ -167,11 +167,11 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": null
     },
     "fx": {
-      "state": "CHECKED_QUIET",
+      "state": "CHECKED_WITH_STORIES",
       "degraded": false,
       "checked_sources": [
         "Federal Reserve",
@@ -179,7 +179,7 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": null
     },
     "commodities": {
@@ -188,7 +188,7 @@
       "checked_sources": [],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": "No sources succeeded or configured"
     },
     "derivatives": {
@@ -199,12 +199,12 @@
       ],
       "failed_sources": [],
       "failed_critical_sources": [],
-      "checked_at": "2026-11-27T13:28:16.185117Z",
+      "checked_at": "2026-11-28T12:42:30.531728Z",
       "reason": "No critical source configured"
     }
   },
   "published_locally": true,
   "deployable": true,
   "reason": null,
-  "rejected_or_disputed": 13
+  "rejected_or_disputed": 9
 }
